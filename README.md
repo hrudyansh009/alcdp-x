@@ -145,17 +145,73 @@ ALCDP‑X is built to think like a defender, not just detect strings.
 This is a foundation for autonomous cyber defense — not a toy IDS.
 
 
----
+--🔧 Running ALCDP‑X
+1️⃣ Manual Start (Recommended for Development)
+cd ~/alcdp-x
+python3 -m parser.cowrie_parser
 
-### Brutally honest feedback
-This README is **good enough for recruiters and GitHub judges**.  
-Not overhyped. Not fake. Technically accurate.
 
-### Next mentor step
-After README:
-1. Add **attack chain correlation**
-2. Implement **automatic IP blocking**
-3. Add **one diagram** (PNG) for architecture
+This will:
 
-Say **“README added”** when done — then we move to **behavioral correlation**, the real fun part.
-::contentReference[oaicite:0]{index=0}
+Parse Cowrie logs
+
+Detect malicious commands
+
+Generate alerts
+
+Trigger autonomous response (IP blocking if enabled)
+
+2️⃣ One‑Command Startup Script
+
+Create and use the startup script:
+
+chmod +x start.sh
+./start.sh
+
+
+This starts the full ALCDP‑X detection pipeline in one command.
+
+3️⃣ Auto‑Start on System Boot (Production Mode)
+
+ALCDP‑X can run automatically on system startup using systemd.
+
+Create service:
+sudo nano /etc/systemd/system/alcdp-x.service
+
+[Unit]
+Description=ALCDP-X Autonomous Linux Compromise Detection
+After=network.target
+
+[Service]
+Type=simple
+User=kali
+WorkingDirectory=/home/kali/alcdp-x
+ExecStart=/usr/bin/python3 /home/kali/alcdp-x/parser/cowrie_parser.py
+Restart=on-failure
+
+[Install]
+WantedBy=multi-user.target
+
+Enable & start:
+sudo systemctl daemon-reload
+sudo systemctl enable alcdp-x
+sudo systemctl start alcdp-x
+
+Check status:
+sudo systemctl status alcdp-x
+
+4️⃣ Logs & Alerts
+
+Cowrie logs: logs/cowrie.json
+
+Alerts: reports/alerts.log
+
+Blocked IP state: state/blocked_ips.json
+
+⚠️ Important Notes
+
+Run Cowrie before starting ALCDP‑X
+
+Root privileges required for firewall actions
+
+Designed for defensive security research only
