@@ -1,82 +1,56 @@
+# parser/cowrie_parser.py
+
 import json
 from datetime import datetime, timezone
-from collections import defaultdict
 
 from detections.rules import classify_command
+from alerts.alert_manager import send_alert
+from response.firewall import block_ip
 
 COWRIE_LOG = "logs/cowrie.json"
-ALERT_LOG = "reports/alerts.log"
 
-# Track session activity
-session_activity = defaultdict(list)
+def parse_cowrie_logs():
+    try:
+        with open(COWRIE_LOG, "r") as f:
+            for line in f:
+                try:
+                    data = json.loads(line)
+                except json.JSONDecodeError:
+                    continue
 
-# Attack chain definition
-ATTACK_CHAIN = [
-    "RECON",
-    "MALWARE_DOWNLOAD"
-]
+                # Cowrie command field
+                command = data.get("input") or data.get("command")
+                if not command:
+                    continue
 
+                classification = classify_command(command)
 
-def send_alert(alert):
-    with open(ALERT_LOG, "a") as f:
-        f.write(json.dumps(alert) + "\n")
-    print("[SESSION ALERT SENT]")
+                # Defensive defaults (important)
+                attack_type = classification.get("attack_type", "UNKNOWN")
+                severity = classification.get("severity", "INFO")
+                mitre = classification.get("mitre", "N/A")
 
-
-def check_attack_chain(session_id):
-    activities = session_activity[session_id]
-
-    for step in ATTACK_CHAIN:
-        if step not in activities:
-            return False
-    return True
-
-
-def parse_cowrie():
-    with open(COWRIE_LOG, "r") as f:
-        for line in f:
-            try:
-                event = json.loads(line)
-            except json.JSONDecodeError:
-                continue
-
-            if event.get("eventid") != "cowrie.command.input":
-                continue
-
-            session = event.get("session")
-            src_ip = event.get("src_ip")
-            command = event.get("input", "").strip()
-
-            attack_type, severity, mitre = classify_command(command)
-
-            session_activity[session].append(attack_type)
-
-            log_entry = {
-                "timestamp": datetime.now(timezone.utc).isoformat(),
-                "src_ip": src_ip,
-                "session": session,
-                "command": command,
-                "attack_type": attack_type,
-                "severity": severity,
-                "mitre": mitre
-            }
-
-            print(log_entry)
-
-            # SESSION-LEVEL ESCALATION
-            if check_attack_chain(session):
-                alert = {
-                    "alert_time": datetime.now(timezone.utc).isoformat(),
-                    "src_ip": src_ip,
-                    "session": session,
-                    "alert_type": "ATTACK_CHAIN_DETECTED",
-                    "severity": "CRITICAL",
-                    "mitre_chain": ["T1082", "T1105"],
-                    "description": "Recon followed by malware download"
+                event = {
+                    "timestamp": datetime.now(timezone.utc).isoformat(),
+                    "src_ip": data.get("src_ip", "N/A"),
+                    "session": data.get("session", "N/A"),
+                    "command": command,
+                    "attack_type": attack_type,
+                    "severity": severity,
+                    "mitre": mitre
                 }
-                send_alert(alert)
-                session_activity[session].clear()  # prevent alert spam
 
+                # Always print parsed event
+                print(event)
+
+                # Alert only on meaningful threats
+                if severity in ["HIGH", "CRITICAL"]:
+                    send_alert(event)
+                    block_ip(event["src_ip"])
+
+    except FileNotFoundError:
+        print(f"[ERROR] Log file not found: {COWRIE_LOG}")
 
 if __name__ == "__main__":
-    parse_cowrie()
+    parse_cowrie_logs()
+

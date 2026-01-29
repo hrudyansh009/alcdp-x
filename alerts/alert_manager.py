@@ -1,20 +1,25 @@
-import datetime
-import os
+# alerts/alert_manager.py
 
-ALERT_LOG = os.path.expanduser("../reports/alerts.log")
+import json
+from datetime import datetime
 
-def send_alert(event):
-    os.makedirs(os.path.dirname(ALERT_LOG), exist_ok=True)
+ALERT_LOG = "reports/alerts.log"
 
-    message = f"""
-[ALERT] {event['severity']} ATTACK DETECTED
+def send_alert(event: dict):
+    """
+    Print alert to terminal and save to alerts.log
+    """
+    print("\n🚨 ALERT GENERATED 🚨")
+    print(f"""
 Time     : {event['timestamp']}
 SourceIP : {event['src_ip']}
+Session  : {event['session']}
 Command  : {event['command']}
+Type     : {event['attack_type']}
+Severity : {event['severity']}
 MITRE    : {event['mitre']}
-----------------------------------
-"""
-    with open(ALERT_LOG, "a") as f:
-        f.write(message)
+""")
 
-    print("[ALERT SENT]")
+    # Save to alerts log
+    with open(ALERT_LOG, "a") as f:
+        f.write(json.dumps(event) + "\n")
