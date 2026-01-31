@@ -1,0 +1,16 @@
+ssh_bruteforce:
+  if:
+    severity: high
+  then:
+    - block_ip
+    - collect_evidence
+    - send_alert
+
+ssh_bruteforce_high_reputation:
+  if:
+    severity: critical
+  then:
+    - isolate_host
+    - deploy_honeypot
+    - collect_evidence
+    - send_alert

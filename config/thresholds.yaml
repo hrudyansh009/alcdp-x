@@ -1,0 +1,8 @@
+ssh:
+  max_attempts: 5
+  time_window: 60
+
+severity_weights:
+  brute_force: 30
+  privilege_escalation: 40
+  bad_reputation: 30
