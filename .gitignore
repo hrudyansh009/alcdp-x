@@ -1,6 +1,9 @@
+<<<<<<< HEAD
 venv/
 __pycache__/
 *.pyc
 .env
-logs/
-reports/*.json
+*.log
+data/events.json
+
+>>>>>>> e3ace900b2a83b172a5b8cdf857b2ec17fb8a917
