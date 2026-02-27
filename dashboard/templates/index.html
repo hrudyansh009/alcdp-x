@@ -1,11 +1,47 @@
-<body>
-    <h1>ALCDP-X SOC Dashboard</h1>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>ALCDP SOC Dashboard</title>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
 
-    <canvas id="attackChart" width="400" height="150"></canvas>
+<body class="dark">
+  <h1>ALCDP SOC Dashboard</h1>
 
-    <h3>Recent Events</h3>
-    <pre id="logBox"></pre>
+  <div class="grid">
+    <div class="card">
+      <h2>Top Attackers</h2>
+      <canvas id="topAttackersChart"></canvas>
+    </div>
 
-    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
-    <script src="{{ url_for('static', filename='js/dashboard.js') }}"></script>
+    <div class="card">
+      <h2>Risk Timeline</h2>
+      <canvas id="riskTimelineChart"></canvas>
+    </div>
+
+    <div class="card">
+      <h2>Sessions</h2>
+      <table id="sessionsTable">
+        <thead>
+          <tr><th>IP</th><th>Events</th><th>Max Risk</th><th>Escalation</th></tr>
+        </thead>
+        <tbody></tbody>
+      </table>
+    </div>
+
+    <div class="card">
+      <h2>Incidents</h2>
+      <table id="incidentsTable">
+        <thead>
+          <tr><th>ID</th><th>IP</th><th>Severity</th><th>Events</th><th>Risk</th><th>Status</th></tr>
+        </thead>
+        <tbody></tbody>
+      </table>
+    </div>
+  </div>
+
+  <script src="{{ url_for('static', filename='js/dashboard.js') }}"></script>
 </body>
+</html>

@@ -1,0 +1,2657 @@
+[
+  {
+    "timestamp": "2026-01-31T21:10:21.589333+00:00",
+    "ip": "1.1.1.1",
+    "risk_score": 20,
+    "verdict": "MONITOR",
+    "mitre_techniques": [
+      "T1110"
+    ]
+  },
+  {
+    "timestamp": "2026-01-31T21:10:21.590839+00:00",
+    "ip": "45.33.32.156",
+    "risk_score": 20,
+    "verdict": "MONITOR",
+    "mitre_techniques": [
+      "T1078"
+    ]
+  },
+  {
+    "timestamp": "2026-01-31T21:10:21.592289+00:00",
+    "ip": "185.220.101.1",
+    "risk_score": 20,
+    "verdict": "MONITOR",
+    "mitre_techniques": [
+      "T1090"
+    ]
+  },
+  {
+    "timestamp": "2026-01-31T21:10:52.062078+00:00",
+    "ip": "8.8.8.8",
+    "risk_score": 20,
+    "verdict": "MONITOR",
+    "mitre_techniques": [
+      "T1046"
+    ]
+  },
+  {
+    "timestamp": "2026-01-31T21:10:52.062952+00:00",
+    "ip": "1.1.1.1",
+    "risk_score": 20,
+    "verdict": "MONITOR",
+    "mitre_techniques": [
+      "T1110"
+    ]
+  },
+  {
+    "timestamp": "2026-01-31T21:10:52.063319+00:00",
+    "ip": "45.33.32.156",
+    "risk_score": 20,
+    "verdict": "MONITOR",
+    "mitre_techniques": [
+      "T1078"
+    ]
+  },
+  {
+    "timestamp": "2026-01-31T21:10:52.063648+00:00",
+    "ip": "185.220.101.1",
+    "risk_score": 20,
+    "verdict": "MONITOR",
+    "mitre_techniques": [
+      "T1090"
+    ]
+  },
+  {
+    "timestamp": "2026-01-31T21:10:57.064169+00:00",
+    "ip": "8.8.8.8",
+    "risk_score": 20,
+    "verdict": "MONITOR",
+    "mitre_techniques": [
+      "T1046"
+    ]
+  },
+  {
+    "timestamp": "2026-01-31T21:10:57.064722+00:00",
+    "ip": "1.1.1.1",
+    "risk_score": 20,
+    "verdict": "MONITOR",
+    "mitre_techniques": [
+      "T1110"
+    ]
+  },
+  {
+    "timestamp": "2026-01-31T21:10:57.065168+00:00",
+    "ip": "45.33.32.156",
+    "risk_score": 20,
+    "verdict": "MONITOR",
+    "mitre_techniques": [
+      "T1078"
+    ]
+  },
+  {
+    "timestamp": "2026-01-31T21:10:57.065507+00:00",
+    "ip": "185.220.101.1",
+    "risk_score": 20,
+    "verdict": "MONITOR",
+    "mitre_techniques": [
+      "T1090"
+    ]
+  },
+  {
+    "timestamp": "2026-01-31T21:11:02.066182+00:00",
+    "ip": "8.8.8.8",
+    "risk_score": 20,
+    "verdict": "MONITOR",
+    "mitre_techniques": [
+      "T1046"
+    ]
+  },
+  {
+    "timestamp": "2026-01-31T21:11:02.067596+00:00",
+    "ip": "1.1.1.1",
+    "risk_score": 20,
+    "verdict": "MONITOR",
+    "mitre_techniques": [
+      "T1110"
+    ]
+  },
+  {
+    "timestamp": "2026-01-31T21:11:02.070948+00:00",
+    "ip": "45.33.32.156",
+    "risk_score": 20,
+    "verdict": "MONITOR",
+    "mitre_techniques": [
+      "T1078"
+    ]
+  },
+  {
+    "timestamp": "2026-01-31T21:11:02.071744+00:00",
+    "ip": "185.220.101.1",
+    "risk_score": 20,
+    "verdict": "MONITOR",
+    "mitre_techniques": [
+      "T1090"
+    ]
+  },
+  {
+    "timestamp": "2026-01-31T21:11:07.079098+00:00",
+    "ip": "8.8.8.8",
+    "risk_score": 20,
+    "verdict": "MONITOR",
+    "mitre_techniques": [
+      "T1046"
+    ]
+  },
+  {
+    "timestamp": "2026-01-31T21:11:07.081522+00:00",
+    "ip": "1.1.1.1",
+    "risk_score": 20,
+    "verdict": "MONITOR",
+    "mitre_techniques": [
+      "T1110"
+    ]
+  },
+  {
+    "timestamp": "2026-01-31T21:11:07.083688+00:00",
+    "ip": "45.33.32.156",
+    "risk_score": 20,
+    "verdict": "MONITOR",
+    "mitre_techniques": [
+      "T1078"
+    ]
+  },
+  {
+    "timestamp": "2026-01-31T21:11:07.084678+00:00",
+    "ip": "185.220.101.1",
+    "risk_score": 20,
+    "verdict": "MONITOR",
+    "mitre_techniques": [
+      "T1090"
+    ]
+  },
+  {
+    "timestamp": "2026-01-31T21:11:12.090504+00:00",
+    "ip": "8.8.8.8",
+    "risk_score": 20,
+    "verdict": "MONITOR",
+    "mitre_techniques": [
+      "T1046"
+    ]
+  },
+  {
+    "timestamp": "2026-01-31T21:11:12.091558+00:00",
+    "ip": "1.1.1.1",
+    "risk_score": 20,
+    "verdict": "MONITOR",
+    "mitre_techniques": [
+      "T1110"
+    ]
+  },
+  {
+    "timestamp": "2026-01-31T21:11:12.091922+00:00",
+    "ip": "45.33.32.156",
+    "risk_score": 20,
+    "verdict": "MONITOR",
+    "mitre_techniques": [
+      "T1078"
+    ]
+  },
+  {
+    "timestamp": "2026-01-31T21:11:12.094935+00:00",
+    "ip": "185.220.101.1",
+    "risk_score": 20,
+    "verdict": "MONITOR",
+    "mitre_techniques": [
+      "T1090"
+    ]
+  },
+  {
+    "timestamp": "2026-01-31T21:11:17.098951+00:00",
+    "ip": "8.8.8.8",
+    "risk_score": 20,
+    "verdict": "MONITOR",
+    "mitre_techniques": [
+      "T1046"
+    ]
+  },
+  {
+    "timestamp": "2026-01-31T21:11:17.099390+00:00",
+    "ip": "1.1.1.1",
+    "risk_score": 20,
+    "verdict": "MONITOR",
+    "mitre_techniques": [
+      "T1110"
+    ]
+  },
+  {
+    "timestamp": "2026-01-31T21:11:17.099932+00:00",
+    "ip": "45.33.32.156",
+    "risk_score": 20,
+    "verdict": "MONITOR",
+    "mitre_techniques": [
+      "T1078"
+    ]
+  },
+  {
+    "timestamp": "2026-01-31T21:11:17.100679+00:00",
+    "ip": "185.220.101.1",
+    "risk_score": 20,
+    "verdict": "MONITOR",
+    "mitre_techniques": [
+      "T1090"
+    ]
+  },
+  {
+    "timestamp": "2026-01-31T21:11:22.101692+00:00",
+    "ip": "8.8.8.8",
+    "risk_score": 20,
+    "verdict": "MONITOR",
+    "mitre_techniques": [
+      "T1046"
+    ]
+  },
+  {
+    "timestamp": "2026-01-31T21:11:22.102072+00:00",
+    "ip": "1.1.1.1",
+    "risk_score": 20,
+    "verdict": "MONITOR",
+    "mitre_techniques": [
+      "T1110"
+    ]
+  },
+  {
+    "timestamp": "2026-01-31T21:11:22.102516+00:00",
+    "ip": "45.33.32.156",
+    "risk_score": 20,
+    "verdict": "MONITOR",
+    "mitre_techniques": [
+      "T1078"
+    ]
+  },
+  {
+    "timestamp": "2026-01-31T21:11:22.102778+00:00",
+    "ip": "185.220.101.1",
+    "risk_score": 20,
+    "verdict": "MONITOR",
+    "mitre_techniques": [
+      "T1090"
+    ]
+  },
+  {
+    "timestamp": "2026-01-31T21:11:27.103859+00:00",
+    "ip": "8.8.8.8",
+    "risk_score": 20,
+    "verdict": "MONITOR",
+    "mitre_techniques": [
+      "T1046"
+    ]
+  },
+  {
+    "timestamp": "2026-01-31T21:11:27.104346+00:00",
+    "ip": "1.1.1.1",
+    "risk_score": 20,
+    "verdict": "MONITOR",
+    "mitre_techniques": [
+      "T1110"
+    ]
+  },
+  {
+    "timestamp": "2026-01-31T21:11:27.104638+00:00",
+    "ip": "45.33.32.156",
+    "risk_score": 20,
+    "verdict": "MONITOR",
+    "mitre_techniques": [
+      "T1078"
+    ]
+  },
+  {
+    "timestamp": "2026-01-31T21:11:27.104936+00:00",
+    "ip": "185.220.101.1",
+    "risk_score": 20,
+    "verdict": "MONITOR",
+    "mitre_techniques": [
+      "T1090"
+    ]
+  },
+  {
+    "timestamp": "2026-01-31T21:11:32.105651+00:00",
+    "ip": "8.8.8.8",
+    "risk_score": 20,
+    "verdict": "MONITOR",
+    "mitre_techniques": [
+      "T1046"
+    ]
+  },
+  {
+    "timestamp": "2026-01-31T21:11:32.106170+00:00",
+    "ip": "1.1.1.1",
+    "risk_score": 20,
+    "verdict": "MONITOR",
+    "mitre_techniques": [
+      "T1110"
+    ]
+  },
+  {
+    "timestamp": "2026-01-31T21:11:32.106758+00:00",
+    "ip": "45.33.32.156",
+    "risk_score": 20,
+    "verdict": "MONITOR",
+    "mitre_techniques": [
+      "T1078"
+    ]
+  },
+  {
+    "timestamp": "2026-01-31T21:11:32.107083+00:00",
+    "ip": "185.220.101.1",
+    "risk_score": 20,
+    "verdict": "MONITOR",
+    "mitre_techniques": [
+      "T1090"
+    ]
+  },
+  {
+    "timestamp": "2026-01-31T21:11:37.107472+00:00",
+    "ip": "8.8.8.8",
+    "risk_score": 20,
+    "verdict": "MONITOR",
+    "mitre_techniques": [
+      "T1046"
+    ]
+  },
+  {
+    "timestamp": "2026-01-31T21:11:37.108068+00:00",
+    "ip": "1.1.1.1",
+    "risk_score": 20,
+    "verdict": "MONITOR",
+    "mitre_techniques": [
+      "T1110"
+    ]
+  },
+  {
+    "timestamp": "2026-01-31T21:11:37.108481+00:00",
+    "ip": "45.33.32.156",
+    "risk_score": 20,
+    "verdict": "MONITOR",
+    "mitre_techniques": [
+      "T1078"
+    ]
+  },
+  {
+    "timestamp": "2026-01-31T21:11:37.109003+00:00",
+    "ip": "185.220.101.1",
+    "risk_score": 20,
+    "verdict": "MONITOR",
+    "mitre_techniques": [
+      "T1090"
+    ]
+  },
+  {
+    "timestamp": "2026-01-31T21:11:42.109981+00:00",
+    "ip": "8.8.8.8",
+    "risk_score": 20,
+    "verdict": "MONITOR",
+    "mitre_techniques": [
+      "T1046"
+    ]
+  },
+  {
+    "timestamp": "2026-01-31T21:11:42.111210+00:00",
+    "ip": "1.1.1.1",
+    "risk_score": 20,
+    "verdict": "MONITOR",
+    "mitre_techniques": [
+      "T1110"
+    ]
+  },
+  {
+    "timestamp": "2026-01-31T21:11:42.112212+00:00",
+    "ip": "45.33.32.156",
+    "risk_score": 20,
+    "verdict": "MONITOR",
+    "mitre_techniques": [
+      "T1078"
+    ]
+  },
+  {
+    "timestamp": "2026-01-31T21:11:42.113043+00:00",
+    "ip": "185.220.101.1",
+    "risk_score": 20,
+    "verdict": "MONITOR",
+    "mitre_techniques": [
+      "T1090"
+    ]
+  },
+  {
+    "timestamp": "2026-01-31T21:11:47.114511+00:00",
+    "ip": "8.8.8.8",
+    "risk_score": 20,
+    "verdict": "MONITOR",
+    "mitre_techniques": [
+      "T1046"
+    ]
+  },
+  {
+    "timestamp": "2026-01-31T21:11:47.115505+00:00",
+    "ip": "1.1.1.1",
+    "risk_score": 20,
+    "verdict": "MONITOR",
+    "mitre_techniques": [
+      "T1110"
+    ]
+  },
+  {
+    "timestamp": "2026-01-31T21:11:47.116589+00:00",
+    "ip": "45.33.32.156",
+    "risk_score": 20,
+    "verdict": "MONITOR",
+    "mitre_techniques": [
+      "T1078"
+    ]
+  },
+  {
+    "timestamp": "2026-01-31T21:11:47.118593+00:00",
+    "ip": "185.220.101.1",
+    "risk_score": 20,
+    "verdict": "MONITOR",
+    "mitre_techniques": [
+      "T1090"
+    ]
+  },
+  {
+    "timestamp": "2026-01-31T21:11:52.119415+00:00",
+    "ip": "8.8.8.8",
+    "risk_score": 20,
+    "verdict": "MONITOR",
+    "mitre_techniques": [
+      "T1046"
+    ]
+  },
+  {
+    "timestamp": "2026-01-31T21:11:52.120425+00:00",
+    "ip": "1.1.1.1",
+    "risk_score": 20,
+    "verdict": "MONITOR",
+    "mitre_techniques": [
+      "T1110"
+    ]
+  },
+  {
+    "timestamp": "2026-01-31T21:11:52.126019+00:00",
+    "ip": "45.33.32.156",
+    "risk_score": 20,
+    "verdict": "MONITOR",
+    "mitre_techniques": [
+      "T1078"
+    ]
+  },
+  {
+    "timestamp": "2026-01-31T21:11:52.127279+00:00",
+    "ip": "185.220.101.1",
+    "risk_score": 20,
+    "verdict": "MONITOR",
+    "mitre_techniques": [
+      "T1090"
+    ]
+  },
+  {
+    "timestamp": "2026-01-31T21:11:57.131007+00:00",
+    "ip": "8.8.8.8",
+    "risk_score": 20,
+    "verdict": "MONITOR",
+    "mitre_techniques": [
+      "T1046"
+    ]
+  },
+  {
+    "timestamp": "2026-01-31T21:11:57.132138+00:00",
+    "ip": "1.1.1.1",
+    "risk_score": 20,
+    "verdict": "MONITOR",
+    "mitre_techniques": [
+      "T1110"
+    ]
+  },
+  {
+    "timestamp": "2026-01-31T21:11:57.135987+00:00",
+    "ip": "45.33.32.156",
+    "risk_score": 20,
+    "verdict": "MONITOR",
+    "mitre_techniques": [
+      "T1078"
+    ]
+  },
+  {
+    "timestamp": "2026-01-31T21:11:57.136763+00:00",
+    "ip": "185.220.101.1",
+    "risk_score": 20,
+    "verdict": "MONITOR",
+    "mitre_techniques": [
+      "T1090"
+    ]
+  },
+  {
+    "timestamp": "2026-01-31T21:12:02.137679+00:00",
+    "ip": "8.8.8.8",
+    "risk_score": 20,
+    "verdict": "MONITOR",
+    "mitre_techniques": [
+      "T1046"
+    ]
+  },
+  {
+    "timestamp": "2026-01-31T21:12:02.138249+00:00",
+    "ip": "1.1.1.1",
+    "risk_score": 20,
+    "verdict": "MONITOR",
+    "mitre_techniques": [
+      "T1110"
+    ]
+  },
+  {
+    "timestamp": "2026-01-31T21:12:02.138923+00:00",
+    "ip": "45.33.32.156",
+    "risk_score": 20,
+    "verdict": "MONITOR",
+    "mitre_techniques": [
+      "T1078"
+    ]
+  },
+  {
+    "timestamp": "2026-01-31T21:12:02.139435+00:00",
+    "ip": "185.220.101.1",
+    "risk_score": 20,
+    "verdict": "MONITOR",
+    "mitre_techniques": [
+      "T1090"
+    ]
+  },
+  {
+    "timestamp": "2026-01-31T21:12:07.143107+00:00",
+    "ip": "8.8.8.8",
+    "risk_score": 20,
+    "verdict": "MONITOR",
+    "mitre_techniques": [
+      "T1046"
+    ]
+  },
+  {
+    "timestamp": "2026-01-31T21:12:07.143592+00:00",
+    "ip": "1.1.1.1",
+    "risk_score": 20,
+    "verdict": "MONITOR",
+    "mitre_techniques": [
+      "T1110"
+    ]
+  },
+  {
+    "timestamp": "2026-01-31T21:12:07.144657+00:00",
+    "ip": "45.33.32.156",
+    "risk_score": 20,
+    "verdict": "MONITOR",
+    "mitre_techniques": [
+      "T1078"
+    ]
+  },
+  {
+    "timestamp": "2026-01-31T21:12:07.145295+00:00",
+    "ip": "185.220.101.1",
+    "risk_score": 20,
+    "verdict": "MONITOR",
+    "mitre_techniques": [
+      "T1090"
+    ]
+  },
+  {
+    "timestamp": "2026-01-31T21:12:12.176904+00:00",
+    "ip": "8.8.8.8",
+    "risk_score": 20,
+    "verdict": "MONITOR",
+    "mitre_techniques": [
+      "T1046"
+    ]
+  },
+  {
+    "timestamp": "2026-01-31T21:12:12.178096+00:00",
+    "ip": "1.1.1.1",
+    "risk_score": 20,
+    "verdict": "MONITOR",
+    "mitre_techniques": [
+      "T1110"
+    ]
+  },
+  {
+    "timestamp": "2026-01-31T21:12:12.179991+00:00",
+    "ip": "45.33.32.156",
+    "risk_score": 20,
+    "verdict": "MONITOR",
+    "mitre_techniques": [
+      "T1078"
+    ]
+  },
+  {
+    "timestamp": "2026-01-31T21:12:12.182156+00:00",
+    "ip": "185.220.101.1",
+    "risk_score": 20,
+    "verdict": "MONITOR",
+    "mitre_techniques": [
+      "T1090"
+    ]
+  },
+  {
+    "timestamp": "2026-01-31T21:12:17.187239+00:00",
+    "ip": "8.8.8.8",
+    "risk_score": 20,
+    "verdict": "MONITOR",
+    "mitre_techniques": [
+      "T1046"
+    ]
+  },
+  {
+    "timestamp": "2026-01-31T21:12:17.187762+00:00",
+    "ip": "1.1.1.1",
+    "risk_score": 20,
+    "verdict": "MONITOR",
+    "mitre_techniques": [
+      "T1110"
+    ]
+  },
+  {
+    "timestamp": "2026-01-31T21:12:17.188663+00:00",
+    "ip": "45.33.32.156",
+    "risk_score": 20,
+    "verdict": "MONITOR",
+    "mitre_techniques": [
+      "T1078"
+    ]
+  },
+  {
+    "timestamp": "2026-01-31T21:12:17.189687+00:00",
+    "ip": "185.220.101.1",
+    "risk_score": 20,
+    "verdict": "MONITOR",
+    "mitre_techniques": [
+      "T1090"
+    ]
+  },
+  {
+    "timestamp": "2026-01-31T21:12:22.190805+00:00",
+    "ip": "8.8.8.8",
+    "risk_score": 20,
+    "verdict": "MONITOR",
+    "mitre_techniques": [
+      "T1046"
+    ]
+  },
+  {
+    "timestamp": "2026-01-31T21:12:22.193547+00:00",
+    "ip": "1.1.1.1",
+    "risk_score": 20,
+    "verdict": "MONITOR",
+    "mitre_techniques": [
+      "T1110"
+    ]
+  },
+  {
+    "timestamp": "2026-01-31T21:12:22.196564+00:00",
+    "ip": "45.33.32.156",
+    "risk_score": 20,
+    "verdict": "MONITOR",
+    "mitre_techniques": [
+      "T1078"
+    ]
+  },
+  {
+    "timestamp": "2026-01-31T21:12:22.199499+00:00",
+    "ip": "185.220.101.1",
+    "risk_score": 20,
+    "verdict": "MONITOR",
+    "mitre_techniques": [
+      "T1090"
+    ]
+  },
+  {
+    "timestamp": "2026-01-31T21:12:27.202303+00:00",
+    "ip": "8.8.8.8",
+    "risk_score": 20,
+    "verdict": "MONITOR",
+    "mitre_techniques": [
+      "T1046"
+    ]
+  },
+  {
+    "timestamp": "2026-01-31T21:12:27.203392+00:00",
+    "ip": "1.1.1.1",
+    "risk_score": 20,
+    "verdict": "MONITOR",
+    "mitre_techniques": [
+      "T1110"
+    ]
+  },
+  {
+    "timestamp": "2026-01-31T21:12:27.204435+00:00",
+    "ip": "45.33.32.156",
+    "risk_score": 20,
+    "verdict": "MONITOR",
+    "mitre_techniques": [
+      "T1078"
+    ]
+  },
+  {
+    "timestamp": "2026-01-31T21:12:27.204894+00:00",
+    "ip": "185.220.101.1",
+    "risk_score": 20,
+    "verdict": "MONITOR",
+    "mitre_techniques": [
+      "T1090"
+    ]
+  },
+  {
+    "timestamp": "2026-01-31T21:12:32.249540+00:00",
+    "ip": "8.8.8.8",
+    "risk_score": 20,
+    "verdict": "MONITOR",
+    "mitre_techniques": [
+      "T1046"
+    ]
+  },
+  {
+    "timestamp": "2026-01-31T21:12:32.251105+00:00",
+    "ip": "1.1.1.1",
+    "risk_score": 20,
+    "verdict": "MONITOR",
+    "mitre_techniques": [
+      "T1110"
+    ]
+  },
+  {
+    "timestamp": "2026-01-31T21:12:32.254070+00:00",
+    "ip": "45.33.32.156",
+    "risk_score": 20,
+    "verdict": "MONITOR",
+    "mitre_techniques": [
+      "T1078"
+    ]
+  },
+  {
+    "timestamp": "2026-01-31T21:12:32.254798+00:00",
+    "ip": "185.220.101.1",
+    "risk_score": 20,
+    "verdict": "MONITOR",
+    "mitre_techniques": [
+      "T1090"
+    ]
+  },
+  {
+    "timestamp": "2026-01-31T21:12:37.256514+00:00",
+    "ip": "8.8.8.8",
+    "risk_score": 20,
+    "verdict": "MONITOR",
+    "mitre_techniques": [
+      "T1046"
+    ]
+  },
+  {
+    "timestamp": "2026-01-31T21:12:37.257715+00:00",
+    "ip": "1.1.1.1",
+    "risk_score": 20,
+    "verdict": "MONITOR",
+    "mitre_techniques": [
+      "T1110"
+    ]
+  },
+  {
+    "timestamp": "2026-01-31T21:12:37.258862+00:00",
+    "ip": "45.33.32.156",
+    "risk_score": 20,
+    "verdict": "MONITOR",
+    "mitre_techniques": [
+      "T1078"
+    ]
+  },
+  {
+    "timestamp": "2026-01-31T21:12:37.259454+00:00",
+    "ip": "185.220.101.1",
+    "risk_score": 20,
+    "verdict": "MONITOR",
+    "mitre_techniques": [
+      "T1090"
+    ]
+  },
+  {
+    "timestamp": "2026-01-31T21:12:42.262927+00:00",
+    "ip": "8.8.8.8",
+    "risk_score": 20,
+    "verdict": "MONITOR",
+    "mitre_techniques": [
+      "T1046"
+    ]
+  },
+  {
+    "timestamp": "2026-01-31T21:12:42.265057+00:00",
+    "ip": "1.1.1.1",
+    "risk_score": 20,
+    "verdict": "MONITOR",
+    "mitre_techniques": [
+      "T1110"
+    ]
+  },
+  {
+    "timestamp": "2026-01-31T21:12:42.267760+00:00",
+    "ip": "45.33.32.156",
+    "risk_score": 20,
+    "verdict": "MONITOR",
+    "mitre_techniques": [
+      "T1078"
+    ]
+  },
+  {
+    "timestamp": "2026-01-31T21:12:42.268774+00:00",
+    "ip": "185.220.101.1",
+    "risk_score": 20,
+    "verdict": "MONITOR",
+    "mitre_techniques": [
+      "T1090"
+    ]
+  },
+  {
+    "timestamp": "2026-01-31T21:12:47.270095+00:00",
+    "ip": "8.8.8.8",
+    "risk_score": 20,
+    "verdict": "MONITOR",
+    "mitre_techniques": [
+      "T1046"
+    ]
+  },
+  {
+    "timestamp": "2026-01-31T21:12:47.271351+00:00",
+    "ip": "1.1.1.1",
+    "risk_score": 20,
+    "verdict": "MONITOR",
+    "mitre_techniques": [
+      "T1110"
+    ]
+  },
+  {
+    "timestamp": "2026-01-31T21:12:47.272579+00:00",
+    "ip": "45.33.32.156",
+    "risk_score": 20,
+    "verdict": "MONITOR",
+    "mitre_techniques": [
+      "T1078"
+    ]
+  },
+  {
+    "timestamp": "2026-01-31T21:12:47.273695+00:00",
+    "ip": "185.220.101.1",
+    "risk_score": 20,
+    "verdict": "MONITOR",
+    "mitre_techniques": [
+      "T1090"
+    ]
+  },
+  {
+    "timestamp": "2026-01-31T21:12:52.275655+00:00",
+    "ip": "8.8.8.8",
+    "risk_score": 20,
+    "verdict": "MONITOR",
+    "mitre_techniques": [
+      "T1046"
+    ]
+  },
+  {
+    "timestamp": "2026-01-31T21:12:52.276703+00:00",
+    "ip": "1.1.1.1",
+    "risk_score": 20,
+    "verdict": "MONITOR",
+    "mitre_techniques": [
+      "T1110"
+    ]
+  },
+  {
+    "timestamp": "2026-01-31T21:12:52.279498+00:00",
+    "ip": "45.33.32.156",
+    "risk_score": 20,
+    "verdict": "MONITOR",
+    "mitre_techniques": [
+      "T1078"
+    ]
+  },
+  {
+    "timestamp": "2026-01-31T21:12:52.280754+00:00",
+    "ip": "185.220.101.1",
+    "risk_score": 20,
+    "verdict": "MONITOR",
+    "mitre_techniques": [
+      "T1090"
+    ]
+  },
+  {
+    "timestamp": "2026-01-31T21:12:57.292410+00:00",
+    "ip": "8.8.8.8",
+    "risk_score": 20,
+    "verdict": "MONITOR",
+    "mitre_techniques": [
+      "T1046"
+    ]
+  },
+  {
+    "timestamp": "2026-01-31T21:12:57.293394+00:00",
+    "ip": "1.1.1.1",
+    "risk_score": 20,
+    "verdict": "MONITOR",
+    "mitre_techniques": [
+      "T1110"
+    ]
+  },
+  {
+    "timestamp": "2026-01-31T21:12:57.294144+00:00",
+    "ip": "45.33.32.156",
+    "risk_score": 20,
+    "verdict": "MONITOR",
+    "mitre_techniques": [
+      "T1078"
+    ]
+  },
+  {
+    "timestamp": "2026-01-31T21:12:57.296013+00:00",
+    "ip": "185.220.101.1",
+    "risk_score": 20,
+    "verdict": "MONITOR",
+    "mitre_techniques": [
+      "T1090"
+    ]
+  },
+  {
+    "timestamp": "2026-01-31T21:13:02.361270+00:00",
+    "ip": "8.8.8.8",
+    "risk_score": 20,
+    "verdict": "MONITOR",
+    "mitre_techniques": [
+      "T1046"
+    ]
+  },
+  {
+    "timestamp": "2026-01-31T21:13:02.361892+00:00",
+    "ip": "1.1.1.1",
+    "risk_score": 20,
+    "verdict": "MONITOR",
+    "mitre_techniques": [
+      "T1110"
+    ]
+  },
+  {
+    "timestamp": "2026-01-31T21:13:02.363569+00:00",
+    "ip": "45.33.32.156",
+    "risk_score": 20,
+    "verdict": "MONITOR",
+    "mitre_techniques": [
+      "T1078"
+    ]
+  },
+  {
+    "timestamp": "2026-01-31T21:13:02.364266+00:00",
+    "ip": "185.220.101.1",
+    "risk_score": 20,
+    "verdict": "MONITOR",
+    "mitre_techniques": [
+      "T1090"
+    ]
+  },
+  {
+    "timestamp": "2026-01-31T21:13:07.366113+00:00",
+    "ip": "8.8.8.8",
+    "risk_score": 20,
+    "verdict": "MONITOR",
+    "mitre_techniques": [
+      "T1046"
+    ]
+  },
+  {
+    "timestamp": "2026-01-31T21:13:07.367158+00:00",
+    "ip": "1.1.1.1",
+    "risk_score": 20,
+    "verdict": "MONITOR",
+    "mitre_techniques": [
+      "T1110"
+    ]
+  },
+  {
+    "timestamp": "2026-01-31T21:13:07.367916+00:00",
+    "ip": "45.33.32.156",
+    "risk_score": 20,
+    "verdict": "MONITOR",
+    "mitre_techniques": [
+      "T1078"
+    ]
+  },
+  {
+    "timestamp": "2026-01-31T21:13:07.369914+00:00",
+    "ip": "185.220.101.1",
+    "risk_score": 20,
+    "verdict": "MONITOR",
+    "mitre_techniques": [
+      "T1090"
+    ]
+  },
+  {
+    "timestamp": "2026-01-31T21:13:12.377362+00:00",
+    "ip": "8.8.8.8",
+    "risk_score": 20,
+    "verdict": "MONITOR",
+    "mitre_techniques": [
+      "T1046"
+    ]
+  },
+  {
+    "timestamp": "2026-01-31T21:13:12.378182+00:00",
+    "ip": "1.1.1.1",
+    "risk_score": 20,
+    "verdict": "MONITOR",
+    "mitre_techniques": [
+      "T1110"
+    ]
+  },
+  {
+    "timestamp": "2026-01-31T21:13:12.379528+00:00",
+    "ip": "45.33.32.156",
+    "risk_score": 20,
+    "verdict": "MONITOR",
+    "mitre_techniques": [
+      "T1078"
+    ]
+  },
+  {
+    "timestamp": "2026-01-31T21:13:12.380631+00:00",
+    "ip": "185.220.101.1",
+    "risk_score": 20,
+    "verdict": "MONITOR",
+    "mitre_techniques": [
+      "T1090"
+    ]
+  },
+  {
+    "timestamp": "2026-01-31T21:13:17.381426+00:00",
+    "ip": "8.8.8.8",
+    "risk_score": 20,
+    "verdict": "MONITOR",
+    "mitre_techniques": [
+      "T1046"
+    ]
+  },
+  {
+    "timestamp": "2026-01-31T21:13:17.383793+00:00",
+    "ip": "1.1.1.1",
+    "risk_score": 20,
+    "verdict": "MONITOR",
+    "mitre_techniques": [
+      "T1110"
+    ]
+  },
+  {
+    "timestamp": "2026-01-31T21:13:17.384526+00:00",
+    "ip": "45.33.32.156",
+    "risk_score": 20,
+    "verdict": "MONITOR",
+    "mitre_techniques": [
+      "T1078"
+    ]
+  },
+  {
+    "timestamp": "2026-01-31T21:13:17.385028+00:00",
+    "ip": "185.220.101.1",
+    "risk_score": 20,
+    "verdict": "MONITOR",
+    "mitre_techniques": [
+      "T1090"
+    ]
+  },
+  {
+    "timestamp": "2026-01-31T21:13:22.495894+00:00",
+    "ip": "8.8.8.8",
+    "risk_score": 20,
+    "verdict": "MONITOR",
+    "mitre_techniques": [
+      "T1046"
+    ]
+  },
+  {
+    "timestamp": "2026-01-31T21:13:22.497069+00:00",
+    "ip": "1.1.1.1",
+    "risk_score": 20,
+    "verdict": "MONITOR",
+    "mitre_techniques": [
+      "T1110"
+    ]
+  },
+  {
+    "timestamp": "2026-01-31T21:13:22.497718+00:00",
+    "ip": "45.33.32.156",
+    "risk_score": 20,
+    "verdict": "MONITOR",
+    "mitre_techniques": [
+      "T1078"
+    ]
+  },
+  {
+    "timestamp": "2026-01-31T21:13:22.498413+00:00",
+    "ip": "185.220.101.1",
+    "risk_score": 20,
+    "verdict": "MONITOR",
+    "mitre_techniques": [
+      "T1090"
+    ]
+  },
+  {
+    "timestamp": "2026-01-31T21:13:27.499526+00:00",
+    "ip": "8.8.8.8",
+    "risk_score": 20,
+    "verdict": "MONITOR",
+    "mitre_techniques": [
+      "T1046"
+    ]
+  },
+  {
+    "timestamp": "2026-01-31T21:13:27.500393+00:00",
+    "ip": "1.1.1.1",
+    "risk_score": 20,
+    "verdict": "MONITOR",
+    "mitre_techniques": [
+      "T1110"
+    ]
+  },
+  {
+    "timestamp": "2026-01-31T21:13:27.501700+00:00",
+    "ip": "45.33.32.156",
+    "risk_score": 20,
+    "verdict": "MONITOR",
+    "mitre_techniques": [
+      "T1078"
+    ]
+  },
+  {
+    "timestamp": "2026-01-31T21:13:27.502631+00:00",
+    "ip": "185.220.101.1",
+    "risk_score": 20,
+    "verdict": "MONITOR",
+    "mitre_techniques": [
+      "T1090"
+    ]
+  },
+  {
+    "timestamp": "2026-01-31T21:13:32.504064+00:00",
+    "ip": "8.8.8.8",
+    "risk_score": 20,
+    "verdict": "MONITOR",
+    "mitre_techniques": [
+      "T1046"
+    ]
+  },
+  {
+    "timestamp": "2026-01-31T21:13:32.504734+00:00",
+    "ip": "1.1.1.1",
+    "risk_score": 20,
+    "verdict": "MONITOR",
+    "mitre_techniques": [
+      "T1110"
+    ]
+  },
+  {
+    "timestamp": "2026-01-31T21:13:32.505680+00:00",
+    "ip": "45.33.32.156",
+    "risk_score": 20,
+    "verdict": "MONITOR",
+    "mitre_techniques": [
+      "T1078"
+    ]
+  },
+  {
+    "timestamp": "2026-01-31T21:13:32.507174+00:00",
+    "ip": "185.220.101.1",
+    "risk_score": 20,
+    "verdict": "MONITOR",
+    "mitre_techniques": [
+      "T1090"
+    ]
+  },
+  {
+    "timestamp": "2026-01-31T21:13:37.552549+00:00",
+    "ip": "8.8.8.8",
+    "risk_score": 20,
+    "verdict": "MONITOR",
+    "mitre_techniques": [
+      "T1046"
+    ]
+  },
+  {
+    "timestamp": "2026-01-31T21:13:37.553701+00:00",
+    "ip": "1.1.1.1",
+    "risk_score": 20,
+    "verdict": "MONITOR",
+    "mitre_techniques": [
+      "T1110"
+    ]
+  },
+  {
+    "timestamp": "2026-01-31T21:13:37.554900+00:00",
+    "ip": "45.33.32.156",
+    "risk_score": 20,
+    "verdict": "MONITOR",
+    "mitre_techniques": [
+      "T1078"
+    ]
+  },
+  {
+    "timestamp": "2026-01-31T21:13:37.555494+00:00",
+    "ip": "185.220.101.1",
+    "risk_score": 20,
+    "verdict": "MONITOR",
+    "mitre_techniques": [
+      "T1090"
+    ]
+  },
+  {
+    "timestamp": "2026-01-31T21:13:42.556306+00:00",
+    "ip": "8.8.8.8",
+    "risk_score": 20,
+    "verdict": "MONITOR",
+    "mitre_techniques": [
+      "T1046"
+    ]
+  },
+  {
+    "timestamp": "2026-01-31T21:13:42.557170+00:00",
+    "ip": "1.1.1.1",
+    "risk_score": 20,
+    "verdict": "MONITOR",
+    "mitre_techniques": [
+      "T1110"
+    ]
+  },
+  {
+    "timestamp": "2026-01-31T21:13:42.557748+00:00",
+    "ip": "45.33.32.156",
+    "risk_score": 20,
+    "verdict": "MONITOR",
+    "mitre_techniques": [
+      "T1078"
+    ]
+  },
+  {
+    "timestamp": "2026-01-31T21:13:42.558690+00:00",
+    "ip": "185.220.101.1",
+    "risk_score": 20,
+    "verdict": "MONITOR",
+    "mitre_techniques": [
+      "T1090"
+    ]
+  },
+  {
+    "timestamp": "2026-01-31T21:13:47.605941+00:00",
+    "ip": "8.8.8.8",
+    "risk_score": 20,
+    "verdict": "MONITOR",
+    "mitre_techniques": [
+      "T1046"
+    ]
+  },
+  {
+    "timestamp": "2026-01-31T21:13:47.607009+00:00",
+    "ip": "1.1.1.1",
+    "risk_score": 20,
+    "verdict": "MONITOR",
+    "mitre_techniques": [
+      "T1110"
+    ]
+  },
+  {
+    "timestamp": "2026-01-31T21:13:47.607646+00:00",
+    "ip": "45.33.32.156",
+    "risk_score": 20,
+    "verdict": "MONITOR",
+    "mitre_techniques": [
+      "T1078"
+    ]
+  },
+  {
+    "timestamp": "2026-01-31T21:13:47.608542+00:00",
+    "ip": "185.220.101.1",
+    "risk_score": 20,
+    "verdict": "MONITOR",
+    "mitre_techniques": [
+      "T1090"
+    ]
+  },
+  {
+    "timestamp": "2026-01-31T21:13:52.630648+00:00",
+    "ip": "8.8.8.8",
+    "risk_score": 20,
+    "verdict": "MONITOR",
+    "mitre_techniques": [
+      "T1046"
+    ]
+  },
+  {
+    "timestamp": "2026-01-31T21:13:52.631502+00:00",
+    "ip": "1.1.1.1",
+    "risk_score": 20,
+    "verdict": "MONITOR",
+    "mitre_techniques": [
+      "T1110"
+    ]
+  },
+  {
+    "timestamp": "2026-01-31T21:13:52.632243+00:00",
+    "ip": "45.33.32.156",
+    "risk_score": 20,
+    "verdict": "MONITOR",
+    "mitre_techniques": [
+      "T1078"
+    ]
+  },
+  {
+    "timestamp": "2026-01-31T21:13:52.633163+00:00",
+    "ip": "185.220.101.1",
+    "risk_score": 20,
+    "verdict": "MONITOR",
+    "mitre_techniques": [
+      "T1090"
+    ]
+  },
+  {
+    "timestamp": "2026-01-31T21:13:57.634195+00:00",
+    "ip": "8.8.8.8",
+    "risk_score": 20,
+    "verdict": "MONITOR",
+    "mitre_techniques": [
+      "T1046"
+    ]
+  },
+  {
+    "timestamp": "2026-01-31T21:13:57.634999+00:00",
+    "ip": "1.1.1.1",
+    "risk_score": 20,
+    "verdict": "MONITOR",
+    "mitre_techniques": [
+      "T1110"
+    ]
+  },
+  {
+    "timestamp": "2026-01-31T21:13:57.635937+00:00",
+    "ip": "45.33.32.156",
+    "risk_score": 20,
+    "verdict": "MONITOR",
+    "mitre_techniques": [
+      "T1078"
+    ]
+  },
+  {
+    "timestamp": "2026-01-31T21:13:57.636791+00:00",
+    "ip": "185.220.101.1",
+    "risk_score": 20,
+    "verdict": "MONITOR",
+    "mitre_techniques": [
+      "T1090"
+    ]
+  },
+  {
+    "timestamp": "2026-01-31T21:14:02.668129+00:00",
+    "ip": "8.8.8.8",
+    "risk_score": 20,
+    "verdict": "MONITOR",
+    "mitre_techniques": [
+      "T1046"
+    ]
+  },
+  {
+    "timestamp": "2026-01-31T21:14:02.668961+00:00",
+    "ip": "1.1.1.1",
+    "risk_score": 20,
+    "verdict": "MONITOR",
+    "mitre_techniques": [
+      "T1110"
+    ]
+  },
+  {
+    "timestamp": "2026-01-31T21:14:02.669623+00:00",
+    "ip": "45.33.32.156",
+    "risk_score": 20,
+    "verdict": "MONITOR",
+    "mitre_techniques": [
+      "T1078"
+    ]
+  },
+  {
+    "timestamp": "2026-01-31T21:14:02.670460+00:00",
+    "ip": "185.220.101.1",
+    "risk_score": 20,
+    "verdict": "MONITOR",
+    "mitre_techniques": [
+      "T1090"
+    ]
+  },
+  {
+    "timestamp": "2026-01-31T21:14:07.672681+00:00",
+    "ip": "8.8.8.8",
+    "risk_score": 20,
+    "verdict": "MONITOR",
+    "mitre_techniques": [
+      "T1046"
+    ]
+  },
+  {
+    "timestamp": "2026-01-31T21:14:07.674693+00:00",
+    "ip": "1.1.1.1",
+    "risk_score": 20,
+    "verdict": "MONITOR",
+    "mitre_techniques": [
+      "T1110"
+    ]
+  },
+  {
+    "timestamp": "2026-01-31T21:14:07.676358+00:00",
+    "ip": "45.33.32.156",
+    "risk_score": 20,
+    "verdict": "MONITOR",
+    "mitre_techniques": [
+      "T1078"
+    ]
+  },
+  {
+    "timestamp": "2026-01-31T21:14:07.678036+00:00",
+    "ip": "185.220.101.1",
+    "risk_score": 20,
+    "verdict": "MONITOR",
+    "mitre_techniques": [
+      "T1090"
+    ]
+  },
+  {
+    "timestamp": "2026-01-31T21:14:12.680374+00:00",
+    "ip": "8.8.8.8",
+    "risk_score": 20,
+    "verdict": "MONITOR",
+    "mitre_techniques": [
+      "T1046"
+    ]
+  },
+  {
+    "timestamp": "2026-01-31T21:14:12.681251+00:00",
+    "ip": "1.1.1.1",
+    "risk_score": 20,
+    "verdict": "MONITOR",
+    "mitre_techniques": [
+      "T1110"
+    ]
+  },
+  {
+    "timestamp": "2026-01-31T21:14:12.682100+00:00",
+    "ip": "45.33.32.156",
+    "risk_score": 20,
+    "verdict": "MONITOR",
+    "mitre_techniques": [
+      "T1078"
+    ]
+  },
+  {
+    "timestamp": "2026-01-31T21:14:12.683134+00:00",
+    "ip": "185.220.101.1",
+    "risk_score": 20,
+    "verdict": "MONITOR",
+    "mitre_techniques": [
+      "T1090"
+    ]
+  },
+  {
+    "timestamp": "2026-01-31T21:14:17.684289+00:00",
+    "ip": "8.8.8.8",
+    "risk_score": 20,
+    "verdict": "MONITOR",
+    "mitre_techniques": [
+      "T1046"
+    ]
+  },
+  {
+    "timestamp": "2026-01-31T21:14:17.686914+00:00",
+    "ip": "1.1.1.1",
+    "risk_score": 20,
+    "verdict": "MONITOR",
+    "mitre_techniques": [
+      "T1110"
+    ]
+  },
+  {
+    "timestamp": "2026-01-31T21:14:17.688479+00:00",
+    "ip": "45.33.32.156",
+    "risk_score": 20,
+    "verdict": "MONITOR",
+    "mitre_techniques": [
+      "T1078"
+    ]
+  },
+  {
+    "timestamp": "2026-01-31T21:14:17.689771+00:00",
+    "ip": "185.220.101.1",
+    "risk_score": 20,
+    "verdict": "MONITOR",
+    "mitre_techniques": [
+      "T1090"
+    ]
+  },
+  {
+    "timestamp": "2026-01-31T21:14:22.700118+00:00",
+    "ip": "8.8.8.8",
+    "risk_score": 20,
+    "verdict": "MONITOR",
+    "mitre_techniques": [
+      "T1046"
+    ]
+  },
+  {
+    "timestamp": "2026-01-31T21:14:22.701578+00:00",
+    "ip": "1.1.1.1",
+    "risk_score": 20,
+    "verdict": "MONITOR",
+    "mitre_techniques": [
+      "T1110"
+    ]
+  },
+  {
+    "timestamp": "2026-01-31T21:14:22.703290+00:00",
+    "ip": "45.33.32.156",
+    "risk_score": 20,
+    "verdict": "MONITOR",
+    "mitre_techniques": [
+      "T1078"
+    ]
+  },
+  {
+    "timestamp": "2026-01-31T21:14:22.704341+00:00",
+    "ip": "185.220.101.1",
+    "risk_score": 20,
+    "verdict": "MONITOR",
+    "mitre_techniques": [
+      "T1090"
+    ]
+  },
+  {
+    "timestamp": "2026-01-31T21:14:27.705955+00:00",
+    "ip": "8.8.8.8",
+    "risk_score": 20,
+    "verdict": "MONITOR",
+    "mitre_techniques": [
+      "T1046"
+    ]
+  },
+  {
+    "timestamp": "2026-01-31T21:14:27.708014+00:00",
+    "ip": "1.1.1.1",
+    "risk_score": 20,
+    "verdict": "MONITOR",
+    "mitre_techniques": [
+      "T1110"
+    ]
+  },
+  {
+    "timestamp": "2026-01-31T21:14:27.710066+00:00",
+    "ip": "45.33.32.156",
+    "risk_score": 20,
+    "verdict": "MONITOR",
+    "mitre_techniques": [
+      "T1078"
+    ]
+  },
+  {
+    "timestamp": "2026-01-31T21:14:27.711498+00:00",
+    "ip": "185.220.101.1",
+    "risk_score": 20,
+    "verdict": "MONITOR",
+    "mitre_techniques": [
+      "T1090"
+    ]
+  },
+  {
+    "timestamp": "2026-01-31T21:14:32.713644+00:00",
+    "ip": "8.8.8.8",
+    "risk_score": 20,
+    "verdict": "MONITOR",
+    "mitre_techniques": [
+      "T1046"
+    ]
+  },
+  {
+    "timestamp": "2026-01-31T21:14:32.716065+00:00",
+    "ip": "1.1.1.1",
+    "risk_score": 20,
+    "verdict": "MONITOR",
+    "mitre_techniques": [
+      "T1110"
+    ]
+  },
+  {
+    "timestamp": "2026-01-31T21:14:32.717781+00:00",
+    "ip": "45.33.32.156",
+    "risk_score": 20,
+    "verdict": "MONITOR",
+    "mitre_techniques": [
+      "T1078"
+    ]
+  },
+  {
+    "timestamp": "2026-01-31T21:14:32.719437+00:00",
+    "ip": "185.220.101.1",
+    "risk_score": 20,
+    "verdict": "MONITOR",
+    "mitre_techniques": [
+      "T1090"
+    ]
+  },
+  {
+    "timestamp": "2026-01-31T21:14:37.720836+00:00",
+    "ip": "8.8.8.8",
+    "risk_score": 20,
+    "verdict": "MONITOR",
+    "mitre_techniques": [
+      "T1046"
+    ]
+  },
+  {
+    "timestamp": "2026-01-31T21:14:37.721639+00:00",
+    "ip": "1.1.1.1",
+    "risk_score": 20,
+    "verdict": "MONITOR",
+    "mitre_techniques": [
+      "T1110"
+    ]
+  },
+  {
+    "timestamp": "2026-01-31T21:14:37.722557+00:00",
+    "ip": "45.33.32.156",
+    "risk_score": 20,
+    "verdict": "MONITOR",
+    "mitre_techniques": [
+      "T1078"
+    ]
+  },
+  {
+    "timestamp": "2026-01-31T21:14:37.723317+00:00",
+    "ip": "185.220.101.1",
+    "risk_score": 20,
+    "verdict": "MONITOR",
+    "mitre_techniques": [
+      "T1090"
+    ]
+  },
+  {
+    "timestamp": "2026-01-31T21:14:42.726594+00:00",
+    "ip": "8.8.8.8",
+    "risk_score": 20,
+    "verdict": "MONITOR",
+    "mitre_techniques": [
+      "T1046"
+    ]
+  },
+  {
+    "timestamp": "2026-01-31T21:14:42.728476+00:00",
+    "ip": "1.1.1.1",
+    "risk_score": 20,
+    "verdict": "MONITOR",
+    "mitre_techniques": [
+      "T1110"
+    ]
+  },
+  {
+    "timestamp": "2026-01-31T21:14:42.730853+00:00",
+    "ip": "45.33.32.156",
+    "risk_score": 20,
+    "verdict": "MONITOR",
+    "mitre_techniques": [
+      "T1078"
+    ]
+  },
+  {
+    "timestamp": "2026-01-31T21:14:42.732392+00:00",
+    "ip": "185.220.101.1",
+    "risk_score": 20,
+    "verdict": "MONITOR",
+    "mitre_techniques": [
+      "T1090"
+    ]
+  },
+  {
+    "timestamp": "2026-01-31T21:14:47.735488+00:00",
+    "ip": "8.8.8.8",
+    "risk_score": 20,
+    "verdict": "MONITOR",
+    "mitre_techniques": [
+      "T1046"
+    ]
+  },
+  {
+    "timestamp": "2026-01-31T21:14:47.737140+00:00",
+    "ip": "1.1.1.1",
+    "risk_score": 20,
+    "verdict": "MONITOR",
+    "mitre_techniques": [
+      "T1110"
+    ]
+  },
+  {
+    "timestamp": "2026-01-31T21:14:47.738043+00:00",
+    "ip": "45.33.32.156",
+    "risk_score": 20,
+    "verdict": "MONITOR",
+    "mitre_techniques": [
+      "T1078"
+    ]
+  },
+  {
+    "timestamp": "2026-01-31T21:14:47.739147+00:00",
+    "ip": "185.220.101.1",
+    "risk_score": 20,
+    "verdict": "MONITOR",
+    "mitre_techniques": [
+      "T1090"
+    ]
+  },
+  {
+    "timestamp": "2026-01-31T21:14:52.740191+00:00",
+    "ip": "8.8.8.8",
+    "risk_score": 20,
+    "verdict": "MONITOR",
+    "mitre_techniques": [
+      "T1046"
+    ]
+  },
+  {
+    "timestamp": "2026-01-31T21:14:52.741114+00:00",
+    "ip": "1.1.1.1",
+    "risk_score": 20,
+    "verdict": "MONITOR",
+    "mitre_techniques": [
+      "T1110"
+    ]
+  },
+  {
+    "timestamp": "2026-01-31T21:14:52.741922+00:00",
+    "ip": "45.33.32.156",
+    "risk_score": 20,
+    "verdict": "MONITOR",
+    "mitre_techniques": [
+      "T1078"
+    ]
+  },
+  {
+    "timestamp": "2026-01-31T21:14:52.742765+00:00",
+    "ip": "185.220.101.1",
+    "risk_score": 20,
+    "verdict": "MONITOR",
+    "mitre_techniques": [
+      "T1090"
+    ]
+  },
+  {
+    "timestamp": "2026-01-31T21:14:57.746614+00:00",
+    "ip": "8.8.8.8",
+    "risk_score": 20,
+    "verdict": "MONITOR",
+    "mitre_techniques": [
+      "T1046"
+    ]
+  },
+  {
+    "timestamp": "2026-01-31T21:14:57.747532+00:00",
+    "ip": "1.1.1.1",
+    "risk_score": 20,
+    "verdict": "MONITOR",
+    "mitre_techniques": [
+      "T1110"
+    ]
+  },
+  {
+    "timestamp": "2026-01-31T21:14:57.748477+00:00",
+    "ip": "45.33.32.156",
+    "risk_score": 20,
+    "verdict": "MONITOR",
+    "mitre_techniques": [
+      "T1078"
+    ]
+  },
+  {
+    "timestamp": "2026-01-31T21:14:57.749208+00:00",
+    "ip": "185.220.101.1",
+    "risk_score": 20,
+    "verdict": "MONITOR",
+    "mitre_techniques": [
+      "T1090"
+    ]
+  },
+  {
+    "timestamp": "2026-01-31T21:15:02.750855+00:00",
+    "ip": "8.8.8.8",
+    "risk_score": 20,
+    "verdict": "MONITOR",
+    "mitre_techniques": [
+      "T1046"
+    ]
+  },
+  {
+    "timestamp": "2026-01-31T21:15:02.753539+00:00",
+    "ip": "1.1.1.1",
+    "risk_score": 20,
+    "verdict": "MONITOR",
+    "mitre_techniques": [
+      "T1110"
+    ]
+  },
+  {
+    "timestamp": "2026-01-31T21:15:02.757780+00:00",
+    "ip": "45.33.32.156",
+    "risk_score": 20,
+    "verdict": "MONITOR",
+    "mitre_techniques": [
+      "T1078"
+    ]
+  },
+  {
+    "timestamp": "2026-01-31T21:15:02.759251+00:00",
+    "ip": "185.220.101.1",
+    "risk_score": 20,
+    "verdict": "MONITOR",
+    "mitre_techniques": [
+      "T1090"
+    ]
+  },
+  {
+    "timestamp": "2026-01-31T21:15:07.762537+00:00",
+    "ip": "8.8.8.8",
+    "risk_score": 20,
+    "verdict": "MONITOR",
+    "mitre_techniques": [
+      "T1046"
+    ]
+  },
+  {
+    "timestamp": "2026-01-31T21:15:07.773330+00:00",
+    "ip": "1.1.1.1",
+    "risk_score": 20,
+    "verdict": "MONITOR",
+    "mitre_techniques": [
+      "T1110"
+    ]
+  },
+  {
+    "timestamp": "2026-01-31T21:15:07.774167+00:00",
+    "ip": "45.33.32.156",
+    "risk_score": 20,
+    "verdict": "MONITOR",
+    "mitre_techniques": [
+      "T1078"
+    ]
+  },
+  {
+    "timestamp": "2026-01-31T21:15:07.778660+00:00",
+    "ip": "185.220.101.1",
+    "risk_score": 20,
+    "verdict": "MONITOR",
+    "mitre_techniques": [
+      "T1090"
+    ]
+  },
+  {
+    "timestamp": "2026-01-31T21:15:12.829311+00:00",
+    "ip": "8.8.8.8",
+    "risk_score": 20,
+    "verdict": "MONITOR",
+    "mitre_techniques": [
+      "T1046"
+    ]
+  },
+  {
+    "timestamp": "2026-01-31T21:15:12.831635+00:00",
+    "ip": "1.1.1.1",
+    "risk_score": 20,
+    "verdict": "MONITOR",
+    "mitre_techniques": [
+      "T1110"
+    ]
+  },
+  {
+    "timestamp": "2026-01-31T21:15:12.832671+00:00",
+    "ip": "45.33.32.156",
+    "risk_score": 20,
+    "verdict": "MONITOR",
+    "mitre_techniques": [
+      "T1078"
+    ]
+  },
+  {
+    "timestamp": "2026-01-31T21:15:12.833981+00:00",
+    "ip": "185.220.101.1",
+    "risk_score": 20,
+    "verdict": "MONITOR",
+    "mitre_techniques": [
+      "T1090"
+    ]
+  },
+  {
+    "timestamp": "2026-01-31T21:15:17.835926+00:00",
+    "ip": "8.8.8.8",
+    "risk_score": 20,
+    "verdict": "MONITOR",
+    "mitre_techniques": [
+      "T1046"
+    ]
+  },
+  {
+    "timestamp": "2026-01-31T21:15:17.837378+00:00",
+    "ip": "1.1.1.1",
+    "risk_score": 20,
+    "verdict": "MONITOR",
+    "mitre_techniques": [
+      "T1110"
+    ]
+  },
+  {
+    "timestamp": "2026-01-31T21:15:17.838889+00:00",
+    "ip": "45.33.32.156",
+    "risk_score": 20,
+    "verdict": "MONITOR",
+    "mitre_techniques": [
+      "T1078"
+    ]
+  },
+  {
+    "timestamp": "2026-01-31T21:15:17.840288+00:00",
+    "ip": "185.220.101.1",
+    "risk_score": 20,
+    "verdict": "MONITOR",
+    "mitre_techniques": [
+      "T1090"
+    ]
+  },
+  {
+    "timestamp": "2026-01-31T21:15:22.841882+00:00",
+    "ip": "8.8.8.8",
+    "risk_score": 20,
+    "verdict": "MONITOR",
+    "mitre_techniques": [
+      "T1046"
+    ]
+  },
+  {
+    "timestamp": "2026-01-31T21:15:22.844053+00:00",
+    "ip": "1.1.1.1",
+    "risk_score": 20,
+    "verdict": "MONITOR",
+    "mitre_techniques": [
+      "T1110"
+    ]
+  },
+  {
+    "timestamp": "2026-01-31T21:15:22.846234+00:00",
+    "ip": "45.33.32.156",
+    "risk_score": 20,
+    "verdict": "MONITOR",
+    "mitre_techniques": [
+      "T1078"
+    ]
+  },
+  {
+    "timestamp": "2026-01-31T21:15:22.847693+00:00",
+    "ip": "185.220.101.1",
+    "risk_score": 20,
+    "verdict": "MONITOR",
+    "mitre_techniques": [
+      "T1090"
+    ]
+  },
+  {
+    "timestamp": "2026-01-31T21:15:27.848813+00:00",
+    "ip": "8.8.8.8",
+    "risk_score": 20,
+    "verdict": "MONITOR",
+    "mitre_techniques": [
+      "T1046"
+    ]
+  },
+  {
+    "timestamp": "2026-01-31T21:15:27.849941+00:00",
+    "ip": "1.1.1.1",
+    "risk_score": 20,
+    "verdict": "MONITOR",
+    "mitre_techniques": [
+      "T1110"
+    ]
+  },
+  {
+    "timestamp": "2026-01-31T21:15:27.850990+00:00",
+    "ip": "45.33.32.156",
+    "risk_score": 20,
+    "verdict": "MONITOR",
+    "mitre_techniques": [
+      "T1078"
+    ]
+  },
+  {
+    "timestamp": "2026-01-31T21:15:27.851885+00:00",
+    "ip": "185.220.101.1",
+    "risk_score": 20,
+    "verdict": "MONITOR",
+    "mitre_techniques": [
+      "T1090"
+    ]
+  },
+  {
+    "timestamp": "2026-01-31T21:15:32.853520+00:00",
+    "ip": "8.8.8.8",
+    "risk_score": 20,
+    "verdict": "MONITOR",
+    "mitre_techniques": [
+      "T1046"
+    ]
+  },
+  {
+    "timestamp": "2026-01-31T21:15:32.855180+00:00",
+    "ip": "1.1.1.1",
+    "risk_score": 20,
+    "verdict": "MONITOR",
+    "mitre_techniques": [
+      "T1110"
+    ]
+  },
+  {
+    "timestamp": "2026-01-31T21:15:32.856312+00:00",
+    "ip": "45.33.32.156",
+    "risk_score": 20,
+    "verdict": "MONITOR",
+    "mitre_techniques": [
+      "T1078"
+    ]
+  },
+  {
+    "timestamp": "2026-01-31T21:15:32.857263+00:00",
+    "ip": "185.220.101.1",
+    "risk_score": 20,
+    "verdict": "MONITOR",
+    "mitre_techniques": [
+      "T1090"
+    ]
+  },
+  {
+    "timestamp": "2026-01-31T21:15:37.858612+00:00",
+    "ip": "8.8.8.8",
+    "risk_score": 20,
+    "verdict": "MONITOR",
+    "mitre_techniques": [
+      "T1046"
+    ]
+  },
+  {
+    "timestamp": "2026-01-31T21:15:37.860296+00:00",
+    "ip": "1.1.1.1",
+    "risk_score": 20,
+    "verdict": "MONITOR",
+    "mitre_techniques": [
+      "T1110"
+    ]
+  },
+  {
+    "timestamp": "2026-01-31T21:15:37.861681+00:00",
+    "ip": "45.33.32.156",
+    "risk_score": 20,
+    "verdict": "MONITOR",
+    "mitre_techniques": [
+      "T1078"
+    ]
+  },
+  {
+    "timestamp": "2026-01-31T21:15:37.862697+00:00",
+    "ip": "185.220.101.1",
+    "risk_score": 20,
+    "verdict": "MONITOR",
+    "mitre_techniques": [
+      "T1090"
+    ]
+  },
+  {
+    "timestamp": "2026-01-31T21:15:42.863832+00:00",
+    "ip": "8.8.8.8",
+    "risk_score": 20,
+    "verdict": "MONITOR",
+    "mitre_techniques": [
+      "T1046"
+    ]
+  },
+  {
+    "timestamp": "2026-01-31T21:15:42.864905+00:00",
+    "ip": "1.1.1.1",
+    "risk_score": 20,
+    "verdict": "MONITOR",
+    "mitre_techniques": [
+      "T1110"
+    ]
+  },
+  {
+    "timestamp": "2026-01-31T21:15:42.865995+00:00",
+    "ip": "45.33.32.156",
+    "risk_score": 20,
+    "verdict": "MONITOR",
+    "mitre_techniques": [
+      "T1078"
+    ]
+  },
+  {
+    "timestamp": "2026-01-31T21:15:42.867113+00:00",
+    "ip": "185.220.101.1",
+    "risk_score": 20,
+    "verdict": "MONITOR",
+    "mitre_techniques": [
+      "T1090"
+    ]
+  },
+  {
+    "timestamp": "2026-01-31T21:15:47.868223+00:00",
+    "ip": "8.8.8.8",
+    "risk_score": 20,
+    "verdict": "MONITOR",
+    "mitre_techniques": [
+      "T1046"
+    ]
+  },
+  {
+    "timestamp": "2026-01-31T21:15:47.870529+00:00",
+    "ip": "1.1.1.1",
+    "risk_score": 20,
+    "verdict": "MONITOR",
+    "mitre_techniques": [
+      "T1110"
+    ]
+  },
+  {
+    "timestamp": "2026-01-31T21:15:47.871928+00:00",
+    "ip": "45.33.32.156",
+    "risk_score": 20,
+    "verdict": "MONITOR",
+    "mitre_techniques": [
+      "T1078"
+    ]
+  },
+  {
+    "timestamp": "2026-01-31T21:15:47.873238+00:00",
+    "ip": "185.220.101.1",
+    "risk_score": 20,
+    "verdict": "MONITOR",
+    "mitre_techniques": [
+      "T1090"
+    ]
+  },
+  {
+    "timestamp": "2026-01-31T21:15:52.874633+00:00",
+    "ip": "8.8.8.8",
+    "risk_score": 20,
+    "verdict": "MONITOR",
+    "mitre_techniques": [
+      "T1046"
+    ]
+  },
+  {
+    "timestamp": "2026-01-31T21:15:52.875898+00:00",
+    "ip": "1.1.1.1",
+    "risk_score": 20,
+    "verdict": "MONITOR",
+    "mitre_techniques": [
+      "T1110"
+    ]
+  },
+  {
+    "timestamp": "2026-01-31T21:15:52.877253+00:00",
+    "ip": "45.33.32.156",
+    "risk_score": 20,
+    "verdict": "MONITOR",
+    "mitre_techniques": [
+      "T1078"
+    ]
+  },
+  {
+    "timestamp": "2026-01-31T21:15:52.879222+00:00",
+    "ip": "185.220.101.1",
+    "risk_score": 20,
+    "verdict": "MONITOR",
+    "mitre_techniques": [
+      "T1090"
+    ]
+  },
+  {
+    "timestamp": "2026-01-31T21:15:57.880746+00:00",
+    "ip": "8.8.8.8",
+    "risk_score": 20,
+    "verdict": "MONITOR",
+    "mitre_techniques": [
+      "T1046"
+    ]
+  },
+  {
+    "timestamp": "2026-01-31T21:15:57.882735+00:00",
+    "ip": "1.1.1.1",
+    "risk_score": 20,
+    "verdict": "MONITOR",
+    "mitre_techniques": [
+      "T1110"
+    ]
+  },
+  {
+    "timestamp": "2026-01-31T21:15:57.883848+00:00",
+    "ip": "45.33.32.156",
+    "risk_score": 20,
+    "verdict": "MONITOR",
+    "mitre_techniques": [
+      "T1078"
+    ]
+  },
+  {
+    "timestamp": "2026-01-31T21:15:57.884976+00:00",
+    "ip": "185.220.101.1",
+    "risk_score": 20,
+    "verdict": "MONITOR",
+    "mitre_techniques": [
+      "T1090"
+    ]
+  },
+  {
+    "timestamp": "2026-01-31T21:16:02.887637+00:00",
+    "ip": "8.8.8.8",
+    "risk_score": 20,
+    "verdict": "MONITOR",
+    "mitre_techniques": [
+      "T1046"
+    ]
+  },
+  {
+    "timestamp": "2026-01-31T21:16:02.889299+00:00",
+    "ip": "1.1.1.1",
+    "risk_score": 20,
+    "verdict": "MONITOR",
+    "mitre_techniques": [
+      "T1110"
+    ]
+  },
+  {
+    "timestamp": "2026-01-31T21:16:02.890946+00:00",
+    "ip": "45.33.32.156",
+    "risk_score": 20,
+    "verdict": "MONITOR",
+    "mitre_techniques": [
+      "T1078"
+    ]
+  },
+  {
+    "timestamp": "2026-01-31T21:16:02.892031+00:00",
+    "ip": "185.220.101.1",
+    "risk_score": 20,
+    "verdict": "MONITOR",
+    "mitre_techniques": [
+      "T1090"
+    ]
+  },
+  {
+    "timestamp": "2026-01-31T21:16:07.893829+00:00",
+    "ip": "8.8.8.8",
+    "risk_score": 20,
+    "verdict": "MONITOR",
+    "mitre_techniques": [
+      "T1046"
+    ]
+  },
+  {
+    "timestamp": "2026-01-31T21:16:07.895902+00:00",
+    "ip": "1.1.1.1",
+    "risk_score": 20,
+    "verdict": "MONITOR",
+    "mitre_techniques": [
+      "T1110"
+    ]
+  },
+  {
+    "timestamp": "2026-01-31T21:16:07.897033+00:00",
+    "ip": "45.33.32.156",
+    "risk_score": 20,
+    "verdict": "MONITOR",
+    "mitre_techniques": [
+      "T1078"
+    ]
+  },
+  {
+    "timestamp": "2026-01-31T21:16:07.898070+00:00",
+    "ip": "185.220.101.1",
+    "risk_score": 20,
+    "verdict": "MONITOR",
+    "mitre_techniques": [
+      "T1090"
+    ]
+  },
+  {
+    "timestamp": "2026-01-31T21:16:12.900662+00:00",
+    "ip": "8.8.8.8",
+    "risk_score": 20,
+    "verdict": "MONITOR",
+    "mitre_techniques": [
+      "T1046"
+    ]
+  },
+  {
+    "timestamp": "2026-01-31T21:16:12.902985+00:00",
+    "ip": "1.1.1.1",
+    "risk_score": 20,
+    "verdict": "MONITOR",
+    "mitre_techniques": [
+      "T1110"
+    ]
+  },
+  {
+    "timestamp": "2026-01-31T21:16:12.904470+00:00",
+    "ip": "45.33.32.156",
+    "risk_score": 20,
+    "verdict": "MONITOR",
+    "mitre_techniques": [
+      "T1078"
+    ]
+  },
+  {
+    "timestamp": "2026-01-31T21:16:12.905711+00:00",
+    "ip": "185.220.101.1",
+    "risk_score": 20,
+    "verdict": "MONITOR",
+    "mitre_techniques": [
+      "T1090"
+    ]
+  },
+  {
+    "timestamp": "2026-01-31T21:16:17.907356+00:00",
+    "ip": "8.8.8.8",
+    "risk_score": 20,
+    "verdict": "MONITOR",
+    "mitre_techniques": [
+      "T1046"
+    ]
+  },
+  {
+    "timestamp": "2026-01-31T21:16:17.908580+00:00",
+    "ip": "1.1.1.1",
+    "risk_score": 20,
+    "verdict": "MONITOR",
+    "mitre_techniques": [
+      "T1110"
+    ]
+  },
+  {
+    "timestamp": "2026-01-31T21:16:17.909931+00:00",
+    "ip": "45.33.32.156",
+    "risk_score": 20,
+    "verdict": "MONITOR",
+    "mitre_techniques": [
+      "T1078"
+    ]
+  },
+  {
+    "timestamp": "2026-01-31T21:16:17.911144+00:00",
+    "ip": "185.220.101.1",
+    "risk_score": 20,
+    "verdict": "MONITOR",
+    "mitre_techniques": [
+      "T1090"
+    ]
+  },
+  {
+    "timestamp": "2026-01-31T21:16:22.913053+00:00",
+    "ip": "8.8.8.8",
+    "risk_score": 20,
+    "verdict": "MONITOR",
+    "mitre_techniques": [
+      "T1046"
+    ]
+  },
+  {
+    "timestamp": "2026-01-31T21:16:22.914574+00:00",
+    "ip": "1.1.1.1",
+    "risk_score": 20,
+    "verdict": "MONITOR",
+    "mitre_techniques": [
+      "T1110"
+    ]
+  },
+  {
+    "timestamp": "2026-01-31T21:16:22.915805+00:00",
+    "ip": "45.33.32.156",
+    "risk_score": 20,
+    "verdict": "MONITOR",
+    "mitre_techniques": [
+      "T1078"
+    ]
+  },
+  {
+    "timestamp": "2026-01-31T21:16:22.916856+00:00",
+    "ip": "185.220.101.1",
+    "risk_score": 20,
+    "verdict": "MONITOR",
+    "mitre_techniques": [
+      "T1090"
+    ]
+  },
+  {
+    "timestamp": "2026-01-31T21:16:27.923050+00:00",
+    "ip": "8.8.8.8",
+    "risk_score": 20,
+    "verdict": "MONITOR",
+    "mitre_techniques": [
+      "T1046"
+    ]
+  },
+  {
+    "timestamp": "2026-01-31T21:16:27.924501+00:00",
+    "ip": "1.1.1.1",
+    "risk_score": 20,
+    "verdict": "MONITOR",
+    "mitre_techniques": [
+      "T1110"
+    ]
+  },
+  {
+    "timestamp": "2026-01-31T21:16:27.925636+00:00",
+    "ip": "45.33.32.156",
+    "risk_score": 20,
+    "verdict": "MONITOR",
+    "mitre_techniques": [
+      "T1078"
+    ]
+  },
+  {
+    "timestamp": "2026-01-31T21:16:27.926795+00:00",
+    "ip": "185.220.101.1",
+    "risk_score": 20,
+    "verdict": "MONITOR",
+    "mitre_techniques": [
+      "T1090"
+    ]
+  },
+  {
+    "timestamp": "2026-01-31T21:16:32.932501+00:00",
+    "ip": "8.8.8.8",
+    "risk_score": 20,
+    "verdict": "MONITOR",
+    "mitre_techniques": [
+      "T1046"
+    ]
+  },
+  {
+    "timestamp": "2026-01-31T21:16:32.933980+00:00",
+    "ip": "1.1.1.1",
+    "risk_score": 20,
+    "verdict": "MONITOR",
+    "mitre_techniques": [
+      "T1110"
+    ]
+  },
+  {
+    "timestamp": "2026-01-31T21:16:32.935255+00:00",
+    "ip": "45.33.32.156",
+    "risk_score": 20,
+    "verdict": "MONITOR",
+    "mitre_techniques": [
+      "T1078"
+    ]
+  },
+  {
+    "timestamp": "2026-01-31T21:16:32.936368+00:00",
+    "ip": "185.220.101.1",
+    "risk_score": 20,
+    "verdict": "MONITOR",
+    "mitre_techniques": [
+      "T1090"
+    ]
+  },
+  {
+    "timestamp": "2026-01-31T21:16:37.937927+00:00",
+    "ip": "8.8.8.8",
+    "risk_score": 20,
+    "verdict": "MONITOR",
+    "mitre_techniques": [
+      "T1046"
+    ]
+  },
+  {
+    "timestamp": "2026-01-31T21:16:37.939269+00:00",
+    "ip": "1.1.1.1",
+    "risk_score": 20,
+    "verdict": "MONITOR",
+    "mitre_techniques": [
+      "T1110"
+    ]
+  },
+  {
+    "timestamp": "2026-01-31T21:16:37.940526+00:00",
+    "ip": "45.33.32.156",
+    "risk_score": 20,
+    "verdict": "MONITOR",
+    "mitre_techniques": [
+      "T1078"
+    ]
+  },
+  {
+    "timestamp": "2026-01-31T21:16:37.941736+00:00",
+    "ip": "185.220.101.1",
+    "risk_score": 20,
+    "verdict": "MONITOR",
+    "mitre_techniques": [
+      "T1090"
+    ]
+  },
+  {
+    "timestamp": "2026-01-31T21:16:42.945815+00:00",
+    "ip": "8.8.8.8",
+    "risk_score": 20,
+    "verdict": "MONITOR",
+    "mitre_techniques": [
+      "T1046"
+    ]
+  },
+  {
+    "timestamp": "2026-01-31T21:16:42.947398+00:00",
+    "ip": "1.1.1.1",
+    "risk_score": 20,
+    "verdict": "MONITOR",
+    "mitre_techniques": [
+      "T1110"
+    ]
+  },
+  {
+    "timestamp": "2026-01-31T21:16:42.948552+00:00",
+    "ip": "45.33.32.156",
+    "risk_score": 20,
+    "verdict": "MONITOR",
+    "mitre_techniques": [
+      "T1078"
+    ]
+  },
+  {
+    "timestamp": "2026-01-31T21:16:42.949725+00:00",
+    "ip": "185.220.101.1",
+    "risk_score": 20,
+    "verdict": "MONITOR",
+    "mitre_techniques": [
+      "T1090"
+    ]
+  },
+  {
+    "timestamp": "2026-01-31T21:16:47.950995+00:00",
+    "ip": "8.8.8.8",
+    "risk_score": 20,
+    "verdict": "MONITOR",
+    "mitre_techniques": [
+      "T1046"
+    ]
+  },
+  {
+    "timestamp": "2026-01-31T21:16:47.952312+00:00",
+    "ip": "1.1.1.1",
+    "risk_score": 20,
+    "verdict": "MONITOR",
+    "mitre_techniques": [
+      "T1110"
+    ]
+  },
+  {
+    "timestamp": "2026-01-31T21:16:47.953471+00:00",
+    "ip": "45.33.32.156",
+    "risk_score": 20,
+    "verdict": "MONITOR",
+    "mitre_techniques": [
+      "T1078"
+    ]
+  },
+  {
+    "timestamp": "2026-01-31T21:16:47.954515+00:00",
+    "ip": "185.220.101.1",
+    "risk_score": 20,
+    "verdict": "MONITOR",
+    "mitre_techniques": [
+      "T1090"
+    ]
+  },
+  {
+    "timestamp": "2026-01-31T21:16:52.956443+00:00",
+    "ip": "8.8.8.8",
+    "risk_score": 20,
+    "verdict": "MONITOR",
+    "mitre_techniques": [
+      "T1046"
+    ]
+  },
+  {
+    "timestamp": "2026-01-31T21:16:52.957743+00:00",
+    "ip": "1.1.1.1",
+    "risk_score": 20,
+    "verdict": "MONITOR",
+    "mitre_techniques": [
+      "T1110"
+    ]
+  },
+  {
+    "timestamp": "2026-01-31T21:16:52.959011+00:00",
+    "ip": "45.33.32.156",
+    "risk_score": 20,
+    "verdict": "MONITOR",
+    "mitre_techniques": [
+      "T1078"
+    ]
+  },
+  {
+    "timestamp": "2026-01-31T21:16:52.960202+00:00",
+    "ip": "185.220.101.1",
+    "risk_score": 20,
+    "verdict": "MONITOR",
+    "mitre_techniques": [
+      "T1090"
+    ]
+  }
+]

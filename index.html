@@ -1,0 +1,44 @@
+<!-- dashboard/templates/index.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>ALCDP Dashboard</title>
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+<style>
+body { font-family: Arial, sans-serif; background: #0f0f0f; color: #fff; }
+canvas { background: #1a1a1a; border-radius: 10px; }
+</style>
+</head>
+<body>
+<h1>ALCDP Real-Time Events</h1>
+<canvas id="riskChart" width="600" height="400"></canvas>
+
+<script>
+const ctx = document.getElementById('riskChart').getContext('2d');
+const chart = new Chart(ctx, {
+    type: 'bar',
+    data: {
+        labels: [],
+        datasets: [{
+            label: 'Risk Score',
+            data: [],
+            backgroundColor: 'rgba(255, 99, 132, 0.7)'
+        }]
+    },
+    options: { responsive: true, maintainAspectRatio: false }
+});
+
+async function fetchEvents() {
+    const res = await fetch("/api/events");
+    const events = await res.json();
+    chart.data.labels = events.map(e => e.ip + ' (' + new Date(e.timestamp).toLocaleTimeString() + ')');
+    chart.data.datasets[0].data = events.map(e => e.risk_score);
+    chart.update();
+}
+
+// Refresh every 2 seconds
+setInterval(fetchEvents, 2000);
+</script>
+</body>
+</html>

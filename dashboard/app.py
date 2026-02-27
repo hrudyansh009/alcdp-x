@@ -1,25 +1,53 @@
-from flask import Flask, render_template, jsonify
-import json
+from flask import Flask, jsonify, render_template
+from threading import Thread
+import time
 
-app = Flask(__name__)
+from dashboard.services.event_store import (
+    get_events,
+    get_sessions,
+    get_incidents,
+    add_event,
+)
 
-COWRIE_LOG = "/home/kali/cowrie/var/log/cowrie/cowrie.json"
+from correlation.correlator import generate_event, ATTACK_PROFILES
 
-@app.route("/")
-def index():
-    return render_template("index.html")
 
-@app.route("/api/attacks")
-def api_attacks():
-    events = []
-    try:
-        with open(COWRIE_LOG, "r") as f:
-            for line in f.readlines()[-50:]:  # last 50 events
-                events.append(json.loads(line))
-    except Exception as e:
-        return jsonify({"error": str(e)})
+def background_engine():
+    ips = list(ATTACK_PROFILES.keys())
+    while True:
+        for ip in ips:
+            event = generate_event(ip)
+            add_event(event)
+        time.sleep(3)
 
-    return jsonify(events)
+
+def create_app():
+    app = Flask(__name__)
+
+    @app.route("/")
+    def index():
+        return render_template("index.html")
+
+    @app.route("/api/events")
+    def api_events():
+        return jsonify(get_events())
+
+    @app.route("/api/sessions")
+    def api_sessions():
+        return jsonify(list(get_sessions().values()))
+
+    @app.route("/api/incidents")
+    def api_incidents():
+        return jsonify(get_incidents())
+
+    return app
+
+
+app = create_app()
+
+# Start correlator inside Flask process
+engine_thread = Thread(target=background_engine, daemon=True)
+engine_thread.start()
 
 if __name__ == "__main__":
     app.run(debug=True)
